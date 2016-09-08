@@ -1,0 +1,17 @@
+mixin reservation()
+   .reservation
+      .container
+         .row
+            .col-md-12
+               .reservation__title
+                  .reservation__title__wrap
+                     +svg('car-slide')
+                  span  Обучение в автошколе
+               p.price  от
+                  span  13 990
+                  |  рублей
+            .col-md-12
+               form
+                  input(type="text" placeholder="E-mail")
+                  input(type="text" placeholder="Телефон")
+                  input(type="submit" value="Забронировать место")

@@ -1,0 +1,32 @@
+include includes/head
+include includes/header
+include includes/reservation
+include includes/guarantie
+include includes/utp
+include includes/footer
+include includes/scripts
+include includes/mixins
+doctype html
+
+html(lang="en")
+    head
+        +head('Главная')
+    body
+        include blocks/svg.html
+
+        // Шапка сайта
+        +header('index')
+        //
+
+        .content
+
+            +reservation()
+
+            +guarantie()
+
+            +utp()
+
+
+        footer
+            +footer()
+        +scripts()

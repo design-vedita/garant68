@@ -1,0 +1,409 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: @open;
+	font-size: 14px;
+}
+
+input,
+input:focus {
+	outline: none;
+	border-radius: 0;
+	-webkit-appearance: none;
+	box-shadow: none;
+}
+
+a {
+	transition: all 300ms linear;
+}
+
+a,
+a:hover,
+a:focus,
+button,
+button,
+button:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+	padding-top: 15px;
+
+	ul {
+
+		&.list-category {
+			margin-left: -15px;
+
+			li {
+				margin-bottom: 15px;
+				width: 34px;
+				height: 34px;
+				font-size: 24px;
+				font-weight: 600;
+				text-align: center;
+				color: @white;
+				list-style-type: none;
+				border-radius: 2px;
+				background-color: @red;
+			}
+		}
+	}
+
+	.address-header {
+		margin-left: -29px;
+		padding-left: 35px;
+		background-image: url(../img/point.svg);
+		background-size: 24px 32px;
+		background-position: left top;
+		background-repeat: no-repeat;
+
+		&.mich {
+			margin-left: 24px;
+		}
+
+		p {
+			margin-bottom: 0;
+
+			&.title {
+				margin-bottom: 7px;
+				font-size: 17px;
+				line-height: 20px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: @green;
+
+				a {
+					color: @green;
+					text-decoration: none;
+
+					&:hover {
+						color: @light-gray;
+					}
+				}
+			}
+
+			&.phone {
+				margin-top: 6px;
+				font-size: 24px;
+				color: @green;
+
+				span {
+					color: @toxic;
+					font-weight: bold;
+				}
+			}
+		}
+
+		span {
+
+			&.address {
+				font-size: 17px;
+				font-weight: 600;
+				color: @gray;
+			}
+		}
+	}
+
+	.reserv-block {
+		text-align: right;
+	}
+
+	a {
+		color: @white;
+
+		&.reservation {
+			padding-top: 24px;
+			display: inline-block;
+			width: 98px;
+			box-sizing: border-box;
+			border: 2px @border-reserv solid;
+			text-align: center;
+			background-image: linear-gradient(to top, @grad-pantone1, @border-reserv);
+			box-shadow: 5px 5px 4px 0 rgba(0, 0, 0, .35);
+			
+			&:hover {
+				color: @white;
+				background-image: linear-gradient(to top, @grad-hover1, @grad-hover2);
+			}
+
+			svg {
+				width: 49px;
+				height: 32px;
+				fill: #fff;
+			}
+
+			span {
+				padding-top: 18px;
+				padding-bottom: 25px;
+				display: block;
+				font-size: 10px;
+				line-height: 12px;
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+		}
+	}
+
+	.menu {
+		position: relative;
+		padding-top: 15px;
+		height: 52px;
+		font-size: 0;
+		background-image: url(../img/menu-back.png);
+
+		&::before {
+			position: absolute;
+			left: -53px;
+			top: 0;
+			display: block;
+			width: 53px;
+			height: 74px;
+			background-image: url(../img/angle.png);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			content: '';
+		}
+
+		&::after {
+			position: absolute;
+			right: -53px;
+			top: 0;
+			display: block;
+			width: 53px;
+			height: 74px;
+			background-image: url(../img/angle-right.png);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			content: '';
+		}
+
+		li {
+			display: inline-block;
+
+			&:not(:last-child) {
+				margin-right: 18px;
+			}
+
+			a {
+				font-size: 15px;
+				font-weight: 600;
+				text-transform: uppercase;
+
+				&:hover {
+					color: @orange;
+				}
+			}
+		}
+	}
+}
+
+.content {
+
+	.reservation {
+		padding-top: 52px;
+		width: 100%;
+		height: 342px;
+		background-image: url(../img/reservation.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+
+		&__title {
+
+			&__wrap {
+				display: inline-block;
+				vertical-align: middle;
+				width: 64px;
+				height: 64px;
+				box-sizing: border-box;
+				padding-top: 9px;
+				text-align: center;
+				background-color: @red;
+				border-radius: 50%;
+
+				svg {
+					width: 49px;
+					height: 41px;
+					fill: @white;
+				}
+			}
+
+			span {
+				vertical-align: middle;
+				font-size: 39px;
+				font-weight: bold;
+				color: @white;
+				text-transform: uppercase;
+			}
+		}
+
+		p.price {
+			padding-left: 5px;
+			padding-right: 5px;
+			margin-top: 16px;
+			display: inline-block;
+			font-size: 39px;
+			color: @white;
+			background-color: @black;
+			text-transform: uppercase;
+
+			span {
+				font-size: 84px;
+				line-height: 95px;
+				font-weight: bold;
+			}
+		}
+
+		form {
+			margin-top: 15px;
+
+			input {
+
+				&[type=text] {
+					padding-left: 15px;
+					margin-right: 10px;
+					max-width: 220px;
+					width: 100%;
+					height: 45px;
+					font-size: 16px;
+					color: @blue;
+					border: 2px transparent solid;
+					box-sizing: border-box;
+					border-radius: 20px;
+					background-color: @white;
+					transition: border 300ms linear;
+
+					&:hover,
+					&:focus {
+						border-color: @red;
+					}
+				}
+
+				&[type=submit] {
+					width: 290px;
+					height: 45px;
+					box-sizing: border-box;
+					font-size: 20px;
+					font-weight: bold;
+					color: @white;
+					text-transform: uppercase;
+					border: 2px @border-reserv solid;
+					background-image: linear-gradient(to top, @grad-pantone1, @border-reserv);
+					border-radius: 20px;
+
+					&:hover {
+						background-image: linear-gradient(to top, @grad-hover1, @grad-hover2);
+					}
+				}
+			}
+		}
+	}
+
+	.guarantie {
+		width: 100%;
+		padding-top: 1px;
+		padding-bottom: 25px;
+		background-color: @toxic;
+
+		span {
+			vertical-align: top;
+			font-size: 83px;
+			line-height: 107px;
+			font-weight: bold;
+			color: @white;
+		}
+
+		p {
+			margin-left: 2.5%;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 44px;
+			line-height: 79px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: @white;
+
+			span {
+				display: block;
+				font-family: @cond;
+				font-size: 72px;
+				line-height: 34px;
+				font-weight: 300;
+			}
+		}
+
+	}
+
+	.utp {
+		position: relative;
+		padding-top: 30px;
+		padding-bottom: 25px;
+		width: 100%;
+		background-color: @black;
+
+		svg {
+			fill: @white;
+
+			&.people {
+				width: 33px;
+				height: 42px;
+			}
+
+			&.car-utp {
+				width: 63px;
+				height: 42px;
+			}
+
+			&.heroes {
+				width: 37px;
+				height: 42px;
+			}
+		}
+
+		p {
+			margin-bottom: 0;
+			text-transform: uppercase;
+
+			&.title {
+				font-size: 18px;
+				line-height: 18px;
+				font-weight: 600;
+				color: @orange;
+			}
+
+			&.subtitle {
+				font-size: 22px;
+				font-weight: bold;
+				color: @white;
+			}
+		}
+
+		.girl {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			top: calc(~'-100% - 356px');
+			margin: auto;
+			text-align: right;
+			max-width: 1170px;
+			width: 100%;
+		}
+	}
+
+	.type-learn {
+		padding-top: 50px;
+		padding-bottom: 30px;
+		background-color: @learn-bg;
+	}
+}

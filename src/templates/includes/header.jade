@@ -1,0 +1,42 @@
+include menu
+
+mixin header(type)
+   header(class="#{type}")
+      .container
+         .row
+            .col-md-3
+               .logo
+                  a(href="javascript:void(0)")
+                     img(src="../img/logo.png")
+            .col-md-1
+               ul.list-category
+                  li A
+                  li A1
+                  li B
+            .col-md-3
+               .address-header.tambov
+                  p.title  Центральный офис в Тамбове
+                  span.address ул. Сенько, 24а
+                  p.phone  +7(4752)
+                     span  44-99-00
+                  p.title: a(href="javascript:void(0)")  Все филиалы
+            .col-md-3
+               .address-header.mich
+                  p.title  Центральный офис в Мичуринске
+                  span.address ул. Полтавская, 55
+                  p.phone  +7(4752)
+                     span  44-99-00
+                  p.title: a(href="javascript:void(0)")  Все филиалы
+            .col-md-2.reserv-block
+               a(href="javascript:void(0)").reservation
+                  +svg('car')
+                  span  Забронировать место
+         .row
+            .col-md-12
+               +menu()
+
+
+
+
+
+

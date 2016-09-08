@@ -1,0 +1,7 @@
+-var menu = ['Об автошколе','Обучение','Стоимость','Акции','Контакты']
+
+mixin menu()
+   .menu
+      ul
+         each li in menu
+            li:   a(href="javascript:void(0)")  #{li}
