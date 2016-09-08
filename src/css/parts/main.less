@@ -392,18 +392,125 @@ header {
 			position: absolute;
 			right: 0;
 			bottom: 0;
-			left: 0;
-			top: calc(~'-100% - 356px');
-			margin: auto;
+			left: calc(~'50% - 585px');
 			text-align: right;
 			max-width: 1170px;
 			width: 100%;
+
+			 img {
+				 position: absolute;
+				 right: 0;
+				 bottom: 0;
+			 }
 		}
 	}
 
 	.type-learn {
-		padding-top: 50px;
+		padding-top: 44px;
 		padding-bottom: 30px;
 		background-color: @learn-bg;
+
+		p {
+			margin-bottom: 0;
+
+			&.title {
+				font-size: 36px;
+				font-weight: 600;
+				color: @acf;
+				text-transform: uppercase;
+
+				&.full-time {
+
+					span {
+						background-color: @full-time;
+					}
+				}
+
+				&.online {
+
+					span {
+						background-color: @toxic;
+					}
+				}
+
+				span {
+					padding-left: 10px;
+					padding-right: 10px;
+					color: @white;
+				}
+			}
+		}
+
+		.description {
+			margin-top: 15px;
+
+			p {
+				font-size: 15px;
+				line-height: 22px;
+				color: @descript;
+			}
+
+			ul {
+				margin-left: 15px;
+				font-size: 15px;
+				line-height: 30px;
+				color: @acf;
+				text-transform: uppercase;
+
+				li {
+					position: relative;
+					padding-left: 15px;
+					list-style-type: none;
+
+					&::before {
+						position: absolute;
+						left: 0;
+						top: calc(~'50% - 3.5px');
+						display: block;
+						width: 7px;
+						height: 7px;
+						border-radius: 50%;
+						background-color: @toxic;
+						content: '';
+					}
+				}
+			}
+
+			a {
+				position: relative;
+				display: block;
+				width: 220px;
+				height: 45px;
+				box-sizing: border-box;
+				font-size: 20px;
+				font-weight: bold;
+				color: @white;
+				border: 2px @border-reserv solid;
+				background-image: linear-gradient(to top, @grad-pantone1, @border-reserv);
+				border-radius: 20px;
+
+				&::after {
+					position: absolute;
+					right: -2px;
+					top: -2px;
+					display: block;
+					width: 57px;
+					height: calc(~'100% + 4px');
+					border-radius: 0 20px 20px 0;
+					background-image: linear-gradient(to top, @form-but-grad1, @form-but-grad2);
+					content: '';
+				}
+
+				svg {
+					position: absolute;
+					z-index: 2;
+					right: 18px;
+					top: 11px;
+					width: 12px;
+					height: 20px;
+					fill: #e9e4e1;
+				}
+			}
+		}
 	}
 }

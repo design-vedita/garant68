@@ -324,17 +324,104 @@ header .menu li a:hover {
   position: absolute;
   right: 0;
   bottom: 0;
-  left: 0;
-  top: calc(-100% - 356px);
-  margin: auto;
+  left: calc(50% - 585px);
   text-align: right;
   max-width: 1170px;
   width: 100%;
 }
+.content .utp .girl img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 .content .type-learn {
-  padding-top: 50px;
+  padding-top: 44px;
   padding-bottom: 30px;
   background-color: f3f2f2;
+}
+.content .type-learn p {
+  margin-bottom: 0;
+}
+.content .type-learn p.title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #2d2d32;
+  text-transform: uppercase;
+}
+.content .type-learn p.title.full-time span {
+  background-color: #ce0e16;
+}
+.content .type-learn p.title.online span {
+  background-color: #65b936;
+}
+.content .type-learn p.title span {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff;
+}
+.content .type-learn .description {
+  margin-top: 15px;
+}
+.content .type-learn .description p {
+  font-size: 15px;
+  line-height: 22px;
+  color: #707070;
+}
+.content .type-learn .description ul {
+  margin-left: 15px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #2d2d32;
+  text-transform: uppercase;
+}
+.content .type-learn .description ul li {
+  position: relative;
+  padding-left: 15px;
+  list-style-type: none;
+}
+.content .type-learn .description ul li::before {
+  position: absolute;
+  left: 0;
+  top: calc(50% - 3.5px);
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #65b936;
+  content: '';
+}
+.content .type-learn .description a {
+  position: relative;
+  display: block;
+  width: 220px;
+  height: 45px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border: 2px #b10021 solid;
+  background-image: linear-gradient(to top, #790016, #b10021);
+  border-radius: 20px;
+}
+.content .type-learn .description a::after {
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  display: block;
+  width: 57px;
+  height: calc(100% + 4px);
+  border-radius: 0 20px 20px 0;
+  background-image: linear-gradient(to top, #222222, #323232);
+  content: '';
+}
+.content .type-learn .description a svg {
+  position: absolute;
+  z-index: 2;
+  right: 18px;
+  top: 11px;
+  width: 12px;
+  height: 20px;
+  fill: #e9e4e1;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   main .style-slider__item__title {
