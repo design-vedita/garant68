@@ -760,11 +760,22 @@ header .menu li a:hover {
   color: #2d2d32;
   text-align: center;
 }
-.content .scheme__list {
-  margin-top: 50px;
+.content .scheme__back {
+  position: absolute;
+  width: 91%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
   background-image: url(../img/bg-scheme.svg);
   background-position: 0 30%;
   background-repeat: repeat-x;
+}
+.content .scheme__list {
+  position: relative;
+  margin-top: 50px;
 }
 .content .scheme__list::after {
   display: block;
@@ -824,6 +835,146 @@ header .menu li a:hover {
 .content .scheme__ico svg.rights {
   width: 64px;
   height: 44px;
+}
+.content .block-text {
+  padding-top: 59px;
+  padding-bottom: 57px;
+}
+.content .block-text p.title-block {
+  text-align: center;
+}
+.content .block-text p.title-block::before {
+  left: calc(50% - 97px);
+}
+.content .block-text__introtext {
+  padding-top: 30px;
+  font-size: 15px;
+  line-height: 22px;
+  color: #707070;
+}
+.content .gradient-line {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 34px;
+  background-image: linear-gradient(to right, #65b936 50%, #4e9426 50%);
+}
+.content .gradient-line__left-address,
+.content .gradient-line__right-address {
+  position: relative;
+  padding-left: 30px;
+}
+.content .gradient-line__left-address svg,
+.content .gradient-line__right-address svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 5px;
+  width: 20px;
+  height: 27px;
+  fill: #fff;
+}
+.content .gradient-line__left-address p,
+.content .gradient-line__right-address p {
+  margin-bottom: 0;
+}
+.content .gradient-line__left-address p.address,
+.content .gradient-line__right-address p.address {
+  font-size: 14px;
+  color: #fff;
+}
+.content .gradient-line__left-address p.phone,
+.content .gradient-line__right-address p.phone {
+  margin-top: -5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #293721;
+}
+.content .gradient-line__left-address a,
+.content .gradient-line__right-address a {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.content .gradient-line__left-address a:hover,
+.content .gradient-line__right-address a:hover {
+  color: #ffde00;
+}
+.content .gradient-line__right-address {
+  padding-left: 45px;
+}
+.content .gradient-line__right-address svg {
+  left: 17px;
+}
+.content .gradient-line__left-address {
+  padding-right: 19px;
+  text-align: right;
+}
+.content .gradient-line__left-address svg {
+  left: 42px;
+}
+.content .gradient-line__left-address p.phone {
+  padding-right: 9%;
+}
+.content .gradient-line__left-address a {
+  padding-right: 39%;
+}
+.content #map {
+  width: 100%;
+  height: 460px;
+}
+footer {
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #2d2d32;
+}
+footer ul.one-menu {
+  list-style-type: none;
+}
+footer ul.two-menu {
+  font-size: 0;
+}
+footer ul.two-menu li {
+  display: inline-block;
+  width: 50%;
+}
+footer ul li a {
+  font-size: 15px;
+  line-height: 26px;
+  color: #fff;
+}
+footer ul li a:hover {
+  color: #ffa200;
+}
+footer svg.phone {
+  display: inline-block;
+  vertical-align: middle;
+  width: 27px;
+  height: 33px;
+  fill: #ffa200;
+}
+footer svg.vk {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 15px;
+  transition: fill 300ms linear;
+}
+footer svg.vk:hover {
+  fill: #507299;
+}
+footer .phone span {
+  vertical-align: middle;
+  color: #ffa200;
+  font-size: 24px;
+  font-weight: 600;
+}
+footer .soc span {
+  vertical-align: middle;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   main .style-slider__item__title {

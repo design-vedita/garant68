@@ -922,11 +922,23 @@ header {
 			}
 		}
 
-		&__list {
-			margin-top: 50px;
+		&__back {
+			position: absolute;
+			width: 91%;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			margin: auto;
 			background-image: url(../img/bg-scheme.svg);
 			background-position: 0 30%;
 			background-repeat: repeat-x;
+		}
+
+		&__list {
+			position: relative;
+			margin-top: 50px;
 
 			&::after {
 				display: block;
@@ -997,6 +1009,187 @@ header {
 				}
 
 			}
+		}
+	}
+
+	.block-text {
+		padding-top: 59px;
+		padding-bottom: 57px;
+
+		p.title-block {
+			text-align: center;
+
+			&::before {
+				left: calc(~'50% - 97px');
+			}
+		}
+
+		&__introtext {
+			padding-top: 30px;
+			font-size: 15px;
+			line-height: 22px;
+			color: @descript;
+		}
+	}
+
+	.gradient-line {
+		width: 100%;
+		padding-top: 30px;
+		padding-bottom: 34px;
+		background-image: linear-gradient(to right, @toxic 50%, @grad-line 50%);
+
+		&__left-address,
+		&__right-address {
+			position: relative;
+			padding-left: 30px;
+
+			svg {
+				position: absolute;
+				left: 0;
+				top: 0;
+				margin-top: 5px;
+				width: 20px;
+				height: 27px;
+				fill: @white;
+			}
+
+			p {
+				margin-bottom: 0;
+
+				&.address {
+					font-size: 14px;
+					color: @white;
+				}
+
+				&.phone {
+					margin-top: -5px;
+					font-size: 18px;
+					font-weight: 600;
+					color: @grad-line-phone;
+				}
+			}
+
+			a {
+				font-size: 12px;
+				text-transform: uppercase;
+				color: @white;
+
+				&:hover {
+					color: @star;
+				}
+			}
+		}
+
+		&__right-address {
+			padding-left: 45px;
+
+			svg {
+				left: 17px;
+			}
+		}
+
+		&__left-address {
+			padding-right: 19px;
+			text-align: right;
+
+			svg {
+				left: 42px;
+			}
+
+			p.phone {
+				padding-right: 9%;
+			}
+
+			a {
+				padding-right: 39%;
+			}
+		}
+	}
+
+	#map {
+		width: 100%;
+		height: 460px;
+	}
+}
+
+footer {
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: @acf;
+
+	ul {
+
+		&.one-menu {
+			list-style-type: none;
+		}
+
+		&.two-menu {
+			font-size: 0;
+
+			li {
+				display: inline-block;
+				width: 50%;
+			}
+		}
+
+		li {
+
+			a {
+				font-size: 15px;
+				line-height: 26px;
+				color: @white;
+
+				&:hover {
+					color: @footer-a;
+				}
+			}
+		}
+
+	}
+
+	svg {
+
+
+		&.phone {
+			display: inline-block;
+			vertical-align: middle;
+			width: 27px;
+			height: 33px;
+			fill: @footer-a;
+		}
+
+		&.vk {
+			width: 30px;
+			height: 30px;
+			fill: @white;
+			vertical-align: middle;
+			display: inline-block;
+			margin-left: 15px;
+			transition: fill 300ms linear;
+
+			&:hover {
+				fill: @border-review;
+			}
+		}
+	}
+
+	.phone {
+
+		span {
+			vertical-align: middle;
+			color: @footer-phone;
+			font-size: 24px;
+			font-weight: 600;
+		}
+	}
+
+	.soc {
+
+		span {
+			vertical-align: middle;
+			font-size: 15px;
+			text-transform: uppercase;
+			color: @white;
 		}
 	}
 }

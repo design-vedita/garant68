@@ -1,5 +1,33 @@
 mixin footer()
     .container
+        .row
+            .col-md-2
+                img(src="../img/logo.png")
+            .col-md-2.col-md-offset-1
+                ul.one-menu
+                    li: a(href="javascript:void(0)") Об автошколе
+                    li: a(href="javascript:void(0)") Документация
+                    li: a(href="javascript:void(0)") Автопарк
+                    li: a(href="javascript:void(0)") Вакансии
+                    li: a(href="javascript:void(0)") Отзывы
+                    li: a(href="javascript:void(0)") Маршруты
+            .col-md-4
+                ul.two-menu
+                    li: a(href="javascript:void(0)") Стоимость
+                    li: a(href="javascript:void(0)") Акции и новости
+                    li: a(href="javascript:void(0)") Очное обучение
+                    li: a(href="javascript:void(0)") Статьи
+                    li: a(href="javascript:void(0)") Онлайн обучени
+                    li: a(href="javascript:void(0)") Контакты
+                    li: a(href="javascript:void(0)") Расписание
+            .col-md-3
+                p.phone
+                    +svg('phone')
+                    span    +7(4752) 44-99-00
+                p.soc
+                    span    Мы в соц. сетях
+                    a(href="javascript:void(0)")
+                        +svg('vk')
 
 
 

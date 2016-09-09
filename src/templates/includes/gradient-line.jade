@@ -1,0 +1,20 @@
+mixin gradient-line()
+    .gradient-line
+        .container
+            .row
+                .col-md-6
+                    .row
+                        .col-md-6.col-md-offset-6
+                            .gradient-line__left-address
+                                +svg('point')
+                                p.address   г. Тамбов, ул. Сенько 24а
+                                p.phone   +7(4752) 44-99-00
+                                a(href="javascript:void(0)").all   Все филиалы
+                .col-md-6
+                    .row
+                        .col-md-6
+                            .gradient-line__right-address
+                                +svg('point')
+                                p.address   г. Мичуринск, ул. Полтавская, 55
+                                p.phone   +7(4752) 44-99-00
+                                a(href="javascript:void(0)").all   Все филиалы
