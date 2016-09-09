@@ -1,0 +1,12 @@
+mixin reviews()
+   .reviews
+      .container
+         .row
+            .col-md-12
+               p.title-block  Отзывы о нас
+            .col-md-12
+               .vidget-vk
+                  <!-- Put this script tag to the <head> of your page -->
+                  //script(src="http://vk.com/js/api/openapi.js?127")
+                  //script(type='text/javascript')   VK.init({apiId: API_ID, onlyWidgets: true}); VK.Widgets.Comments("vk_comments", {limit: 10, width: "100%", attach: "*"});
+               a(href="javascript:void(0)").all-reviews   Все отзывы
