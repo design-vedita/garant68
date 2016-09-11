@@ -19,13 +19,32 @@
             autoplayDisableOnInteraction: true
         });
 
+        var swiper2 = new Swiper('.js-classes', {
+            // pagination: '.swiper-pagination',
+            direction: 'horizontal',
+            slidesPerView: 7.2,
+            paginationClickable: true,
+            spaceBetween: 7,
+            mousewheelControl: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: true
+        });
 
-        $('.swiper-slide').mouseover(function(){
+
+        $('.auto-slide').mouseover(function(){
            swiper.stopAutoplay();
         });
 
-        $('.swiper-slide').mouseout(function(){
+        $('.auto-slide').mouseout(function(){
             swiper.startAutoplay();
+        });
+
+        $('.classes-slide').mouseover(function(){
+            swiper2.stopAutoplay();
+        });
+
+        $('.classes-slide').mouseout(function(){
+            swiper2.startAutoplay();
         });
 
 
@@ -70,6 +89,33 @@
             myMap.geoObjects.add(myPlacemark2);
             myMap.behaviors.disable('scrollZoom');
         });
+
+        function viewGallery() {
+            var links = document.getElementsByClassName('js-c_link'),
+                carousels = document.getElementsByClassName('js-carousel');
+
+            for (var i = 0; i < links.length; i++) {
+
+                links[i].onclick = function() {
+                    var openBlock = this.getAttribute('data-slider');
+
+                    for (var n = 0; n < links.length; n++ ) {
+                        links[n].classList.remove('active');
+                    }
+
+                    this.classList.add('active');
+
+                    for (var j = 0; j < carousels.length; j++) {
+                        carousels[j].classList.add('no--visible');
+                    }
+
+                    var carousel = document.getElementsByClassName(openBlock)[0];
+                        carousel.classList.remove('no--visible');
+                }
+            }
+        }
+
+        viewGallery();
 
 
     });

@@ -13,7 +13,7 @@ input:focus {
   -webkit-appearance: none;
   box-shadow: none;
 }
-a {
+a:not('js-c_link') {
   transition: all 300ms linear;
 }
 a,
@@ -586,8 +586,15 @@ header .menu li a:hover {
   padding-bottom: 49px;
   background-color: #65b936;
 }
-.content .gallery .auto-carousel {
+.content .gallery .auto-carousel,
+.content .gallery .classes-carousel {
   margin-left: -100px;
+}
+.content .gallery .auto-carousel.no--visible,
+.content .gallery .classes-carousel.no--visible {
+  visibility: hidden;
+  height: 0;
+  overflow: hidden;
 }
 .content .gallery .title-block {
   margin-bottom: 29px;
@@ -608,6 +615,15 @@ header .menu li a:hover {
   width: 100%;
   text-align: center;
   margin-bottom: 34px;
+}
+.content .gallery__links .point {
+  position: absolute;
+  left: calc(50% + 4px);
+  top: calc(50% - 1px);
+  display: block;
+  width: 2px;
+  height: 2px;
+  background-color: #fff;
 }
 .content .gallery__links::after {
   position: absolute;
@@ -645,6 +661,11 @@ header .menu li a:hover {
   border-bottom: 2px #498925 solid;
   border-top: 2px #498925 solid;
   background-color: #498925;
+}
+@media all and (-webkit-min-device-pixel-ratio: 0) {
+  .content .gallery__links a {
+    padding-bottom: 2px;
+  }
 }
 .content .gallery__links a.classes {
   padding-left: 30px;
@@ -916,7 +937,7 @@ header .menu li a:hover {
   padding-right: 9%;
 }
 .content .gradient-line__left-address a {
-  padding-right: 39%;
+  padding-right: 33%;
 }
 .content #map {
   width: 100%;
@@ -975,6 +996,31 @@ footer .soc span {
   font-size: 15px;
   text-transform: uppercase;
   color: #fff;
+}
+.developer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #1e1e21;
+}
+.developer p {
+  margin-bottom: 0;
+}
+.developer p.copyright {
+  font-size: 14px;
+  line-height: 36px;
+  color: #a29d9d;
+}
+.developer span {
+  margin-right: 4%;
+  margin-left: 12%;
+  vertical-align: middle;
+  font-size: 11px;
+  line-height: 36px;
+  color: #a29d9d;
+}
+.developer img {
+  display: inline-block;
+  vertical-align: middle;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   main .style-slider__item__title {

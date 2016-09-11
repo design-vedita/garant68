@@ -6,45 +6,86 @@ mixin gallery()
                p.title-block  Фотогалерея
             .col-md-12
                .gallery__links
-                  a(href="javascript:void(0)").auto.active  Автомобили
-                  a(href="javascript:void(0)").classes  Классы
+                  .point
+                  a(href="javascript:void(0)" data-slider="auto-carousel").js-c_link.auto.active
+                     |  Автомобили
+                  a(href="javascript:void(0)" data-slider="classes-carousel").js-c_link.classes  Классы
                   br.clear
-      .auto-carousel
+      .auto-carousel.js-carousel
          .swiper-container.js-auto
             .swiper-wrapper
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
-               .swiper-slide
+               .swiper-slide.auto-slide
                   a(href="../img/car.png" rel="gal1").fancybox
                      img(src="../img/car.png")
+      .classes-carousel.no--visible.js-carousel
+         .swiper-container.js-classes
+            .swiper-wrapper
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
+               .swiper-slide.classes-slide
+                  a(href="../img/class.jpg" rel="gal1").fancybox
+                     img(src="../img/class.jpg")
