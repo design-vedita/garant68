@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     less = require('gulp-less'),
     rigger = require('gulp-rigger'),
     cssmin = require('gulp-minify-css'),
+    newer = require('gulp-newer'),
     browserSync = require("browser-sync"),
     autoprefixer = require('gulp-autoprefixer'),
     plumber = require('gulp-plumber'),
@@ -89,6 +90,7 @@ gulp.task('sprite', function() {
 gulp.task('svgstore', function () {
     var svgs = gulp
         .src(path.src.svg)
+        .pipe(newer(path.src.svg_dest))
         .pipe(svgmin())
         .pipe(svgstore({ inlineSvg: true }));
 
@@ -109,6 +111,7 @@ gulp.task('webserver', function () {
 
 gulp.task('jade:build', function(){
     gulp.src(path.src.jade)
+        .pipe(newer(path.build.html))
         .pipe(jade({
             pretty: true
         }))
@@ -132,12 +135,13 @@ gulp.task('css:build', function () {
             paths: ['src/css/'],
          //   compress: true
         }))
-       // .pipe(cssmin())
+        .pipe(cssmin())
         .pipe(gulp.dest(path.build.css));
 });
 
 gulp.task('image:build', function () {
     gulp.src(path.src.img)
+        .pipe(newer(path.build.img))
         .pipe(gulp.dest(path.build.img));
 });
 

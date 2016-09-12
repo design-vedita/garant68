@@ -1,0 +1,29 @@
+include includes/head
+include includes/header
+include includes/breadcrumbs
+include includes/about-content
+include includes/developer
+include includes/footer
+include includes/scripts
+include includes/mixins
+
+doctype html
+html(lang="en")
+    head
+        +head('О компании')
+    body
+        include blocks/svg.html
+        // Шапка сайта
+        +header()
+        //
+        .content
+
+           +breadcrumbs('О компании')
+
+           +about-content()
+
+
+        footer
+            +footer()
+        +developer()
+        +scripts()

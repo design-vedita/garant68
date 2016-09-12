@@ -1,0 +1,25 @@
+include includes/head
+include includes/header
+include includes/breadcrumbs
+include includes/training-content
+include includes/footer
+include includes/scripts
+include includes/mixins
+
+doctype html
+html(lang="en")
+    head
+        +head('Акции')
+    body
+        include blocks/svg.html
+        // Шапка сайта
+        +header()
+        //
+        .content
+            +breadcrumbs('Обучение')
+
+            +training-content()
+            
+        footer
+            +footer()
+            +scripts()

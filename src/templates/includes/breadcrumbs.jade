@@ -1,0 +1,11 @@
+mixin breadcrumbs(title)
+   .breadcrumbs
+      .container
+         .row
+            .col-md-12
+               ul
+                  li:   a(href="javascript:void(0)")
+                     +svg('home')
+                     |  -
+                  li:   a(href="javascript:void(0)") Главная -
+                  li:   span  #{title}

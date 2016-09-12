@@ -1,0 +1,32 @@
+include map
+
+mixin contacts()
+   .contacts
+      .container
+         .row
+            .col-md-12
+               h1 Контакты
+         .contacts__text
+            .row
+               .col-md-4.col-sm-6
+                  p.title-city  Тамбов
+                  .address-city
+                     p.address   г. Тамбов. ул. Сенько, 24а
+                     p.phone   +7(4752) 44-99-00, 8(961)619-39-75
+
+                     p.address  г. Тамбов. ул. Астраханская 189а
+                     p.phone   +7(4752) 44-99-00, 8(961)619-39-75
+
+                     p.address  г. Тамбов. ул. Рылеева 61
+                     p.phone   +7(4752) 44-99-00, 8(961)619-39-75
+               .col-md-4.col-md-offset-1.col-sm-6
+                  p.title-city  Мичуринск
+                  .address-city
+                     p.address   г. Мичуринск, ул. Полтавская 55
+                     p.phone   +7(900) 490-30-40
+
+                     p.address  г. Мичуринск, КЧТ5, ул. 7 Ноября 38
+                     p.phone   +7(900) 510-55-44
+      +map()
+
+

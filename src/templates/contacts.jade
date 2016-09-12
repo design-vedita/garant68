@@ -1,0 +1,24 @@
+include includes/head
+include includes/header
+include includes/breadcrumbs
+include includes/contacts
+include includes/footer
+include includes/scripts
+include includes/mixins
+doctype html
+html(lang="en")
+    head
+        +head('Контакты')
+    body
+        include blocks/svg.html
+        // Шапка сайта
+        +header()
+        //
+        .content
+            +breadcrumbs('Контакты')
+
+            +contacts()
+
+        footer
+            +footer()
+            +scripts()
