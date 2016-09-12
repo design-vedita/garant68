@@ -13,7 +13,7 @@ var gulp = require('gulp'),
     svgstore = require('gulp-svgstore'),
     svgmin = require('gulp-svgmin'),
     inject = require('gulp-inject'),
-    jade = require('gulp-jade')
+    jade = require('gulp-jade');
    // spritesmith = require('gulp.spritesmith');
 
 var path = {
@@ -83,7 +83,7 @@ gulp.task('sprite', function() {
             }));
 
     spriteData.img.pipe(gulp.dest('./build/img/sprite'));
-    spriteData.css.pipe(gulp.dest('./src/css/parts')); // путь, куда сохраняем стили
+    spriteData.css.pipe(gulp.dest('./src/css/parts')); // пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 });
 */
 

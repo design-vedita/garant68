@@ -3,13 +3,14 @@ include includes/header
 include includes/breadcrumbs
 include includes/training-content
 include includes/footer
+include includes/popup
 include includes/scripts
 include includes/mixins
 
 doctype html
 html(lang="en")
     head
-        +head('Акции')
+        +head('Обучение')
     body
         include blocks/svg.html
         // Шапка сайта
@@ -22,4 +23,5 @@ html(lang="en")
             
         footer
             +footer()
+            +popup()
             +scripts()

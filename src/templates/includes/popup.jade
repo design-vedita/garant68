@@ -1,0 +1,18 @@
+mixin popup()
+    .overlay.js-close.js-overlay
+    .popup.js-popup
+        .popup__header.js-close
+            p Забронировать место
+            +svg('close')
+        .popup__content
+            p   Оставете Ваши контактные данные и наш менеджер
+              br
+              | свяжется с вами в ближайшее время.
+            form
+                input(type="text" placeholder="E-mail")
+                input(type="text" placeholder="Телефон")
+                .wrap-select
+                    select
+                        option  Очное обучение
+                        option  Заочное обучение
+                input(type="submit" value="Забронировать место")

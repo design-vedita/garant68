@@ -1,10 +1,11 @@
 include developer
+include popup
 
 mixin footer()
     .container
         .row
             .col-md-2
-                img(src="../img/logo.png")
+                img(src="../img/logo-footer.png")
             .col-md-2.col-md-offset-1
                 ul.one-menu
                     li: a(href="javascript:void(0)") Об автошколе
@@ -30,6 +31,7 @@ mixin footer()
                     span    Мы в соц. сетях
                     a(href="javascript:void(0)")
                         +svg('vk')
+
 
 
 

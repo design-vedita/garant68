@@ -1,3 +1,5 @@
+include  map
+
 mixin training-content()
    .training-content
       .container
@@ -7,3 +9,72 @@ mixin training-content()
          .row
             .col-md-12
                p.block-title  Начало занятий на категории «А1»,«А» и «В»
+         .routes
+            .row
+               .col-md-12
+                  p.title  Маршруты автошколы
+                  p  Маршруты обучения вождению составлены таким образом, чтобы смоделировать практически все возможные дорожные ситуации. Ниже вы можете ознакомиться с нашими маршрутами.
+                  p.in-city   В Тамбове
+                  .plans__block
+                     .row
+                        .col-md-3.col-sm-6.item
+                           img(src="../img/plan.jpg")
+                        .col-md-3.col-sm-6.item
+                           img(src="../img/plan.jpg")
+                        .col-md-3.col-sm-6.item
+                           img(src="../img/plan.jpg")
+                        .col-md-3.col-sm-6.item
+                           img(src="../img/plan.jpg")
+                  p.in-city   В Мичуринске
+                     .plans__block
+                        .row
+                           .col-md-3.col-sm-6.item
+                              img(src="../img/plan.jpg")
+                           .col-md-3.col-sm-6.item
+                              img(src="../img/plan.jpg")
+                           .col-md-3.col-sm-6.item
+                              img(src="../img/plan.jpg")
+                           .col-md-3.col-sm-6.item
+                              img(src="../img/plan.jpg")
+         .programms
+            .row
+               .col-md-12
+                  p.title  Учебные программы
+                  p Здесь Вы можете ознакомиться с образовательными программами и скачать их.
+            .programms__list
+               .row
+                  .col-md-4.col-sm-6
+                     a(href="javascript:void(0)" target="_blank") Образовательная программа  категории «А1»
+                  .col-md-4.col-sm-6
+                     a(href="javascript:void(0)" target="_blank") Образовательная программа  категории «А1»
+                  .col-md-4.col-sm-6
+                     a(href="javascript:void(0)" target="_blank") Образовательная программа  категории «А1»
+      .order-training
+         .container
+            .row
+               .col-md-12
+                  p.title  На обучение можно записаться по телефону или в офисе:
+            .contacts__text
+               .row
+                  .col-md-4.col-sm-6
+                     p.title-city  Тамбов
+                     .address-city
+                        p.address   г. Тамбов. ул. Сенько, 24а
+                        p.phone   +7(4752) 44-99-00, 8(961)619-39-75
+
+                        p.address  г. Тамбов. ул. Астраханская 189а
+                        p.phone   +7(4752) 44-99-00, 8(961)619-39-75
+
+                        p.address  г. Тамбов. ул. Рылеева 61
+                        p.phone   +7(4752) 44-99-00, 8(961)619-39-75
+                  .col-md-4.col-md-offset-1.col-sm-6
+                     p.title-city  Мичуринск
+                     .address-city
+                        p.address   г. Мичуринск, ул. Полтавская 55
+                        p.phone   +7(900) 490-30-40
+
+                        p.address  г. Мичуринск, КЧТ5, ул. 7 Ноября 38
+                        p.phone   +7(900) 510-55-44
+      +map()
+
+

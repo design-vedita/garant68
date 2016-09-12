@@ -1,0 +1,192 @@
+.overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	background-color: fade(@dark, 50%);
+	opacity: 0;
+	visibility: hidden;
+
+	&.visible--overlay {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+.popup {
+	position: absolute;
+	z-index: 10;
+	max-width: 746px;
+	width: 100%;
+	border-radius: 5px;
+	background-color: @white;
+	opacity: 0;
+	visibility: hidden;
+	transition-property: opacity, visibility;
+	transition-duration: 300ms;
+	transition-timing-function: linear;
+
+		&.visible--popup {
+			opacity: 1;
+			visibility: visible;
+		}
+
+	&__header {
+		position: relative;
+		padding-top: 9px;
+		padding-bottom: 5px;
+		padding-left: 14px;
+		font-size: 20px;
+		font-weight: bold;
+		color: @white;
+		text-transform: uppercase;
+		border-radius: 5px 5px 0 0;
+		background-color: @popup-header;
+
+		 p {
+			 margin-bottom: 0;
+		 }
+
+		svg {
+			position: absolute;
+			right: 14px;
+			top: 10px;
+			width: 24px;
+			height: 24px;
+			fill: @white;
+			opacity: 1;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+
+	&__content {
+		padding-top: 28px;
+
+		p {
+			font-size: 17px;
+			line-height: 22px;
+			text-align: center;
+			color: @form-but-grad2;
+		}
+
+		form {
+			margin-top: 40px;
+			padding-left: 22px;
+			padding-right: 15px;
+			padding-bottom: 39px;
+
+			input {
+
+				&[type=text] {
+					width: 100%;
+					max-width: 223px;
+					height: 49px;
+					border: 2px @popup-input_border solid;
+					box-sizing: border-box;
+					border-radius: 25px;
+					padding-left: 20px;
+					font-size: 16px;
+					color: @blue;
+					box-shadow: 14px 14px 27px 0 fade(@popup-input_shadow, 35%);
+					transition: border 300ms linear;
+
+					&:nth-of-type(1) {
+						margin-right: 1%;
+					}
+					&:nth-of-type(2) {
+						margin-right: 2%;
+					}
+
+					&:hover,
+					&:focus {
+						border-color: @red;
+					}
+					
+					@media (max-width: 740px) {
+						& {
+							margin-bottom: 15px;
+							width: 100%;
+							max-width: none;
+						}
+					}
+				}
+
+				&[type=submit] {
+					margin: 52px auto 0;
+					display: block;
+					width: 290px;
+					height: 45px;
+					background-image: linear-gradient(to top, @grad-pantone1, @border-reserv);
+					border: 2px @border-reserv solid;
+					border-radius: 20px;
+					font-size: 20px;
+					font-weight: bold;
+					color: @white;
+					text-transform: uppercase;
+					box-shadow: 5px 5px 4px 0 rgba(0, 0, 0, .35);
+
+					&:hover {
+						background-image: linear-gradient(to top, @grad-hover1, @grad-hover2);
+					}
+				}
+			}
+
+			.wrap-select {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+				width: 100%;
+				max-width: 223px;
+				height: 49px;
+				border: 2px @popup-input_border solid;
+				box-sizing: border-box;
+				border-radius: 25px;
+				box-shadow: 14px 14px 27px 0 fade(@popup-input_shadow, 35%);
+				overflow: hidden;
+				cursor: pointer;
+
+				@media (max-width: 740px) {
+					& {
+						width: 100%;
+						max-width: none;
+					}
+
+					select {
+						width: 105% !important;
+					}
+				}
+
+				&::before {
+					position: absolute;
+					z-index: 3;
+					right: 18px;
+					top: calc(~'50% - 3px');
+					display: block;
+					width: 10px;
+					height: 6px;
+					background-image: url(../img/bird-select.svg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+					content: '';
+				}
+
+				select {
+					position: absolute;
+					left: -2px;
+					top: -2px;
+					padding-left:20px;
+					width: 240px;
+					height: 51px;
+					font-size: 16px;
+					color: @blue;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}

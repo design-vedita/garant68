@@ -118,6 +118,51 @@
         viewGallery();
 
 
+        function popupCenter() {
+            var links = document.getElementsByClassName('js-view-popup'),
+                close = document.getElementsByClassName('js-close'),
+                overlay = document.getElementsByClassName('js-overlay')[0],
+                popup = document.getElementsByClassName('js-popup')[0],
+                body = document.body,
+                docElem = document.documentElement,
+                scrollTop = window.pageYOffset || docElem.scrollTop || body.scrollTop,
+                scrollLeft = window.pageXOffset || docElem.scrollLeft || body.scrollLeft;
+
+            var width = popup.offsetWidth,
+                height = popup.offsetHeight;
+
+            popup.style.left = scrollLeft + (docElem.clientWidth - width) / 2 + 'px';
+            popup.style.top = scrollTop + (docElem.clientHeight - height) / 2 + 'px';
+
+
+            for (var i = 0; i < links.length; i++) {
+
+                links[i].onclick = function() {
+                    popup.classList.add('visible--popup');
+                    overlay.classList.add('visible--overlay');
+                }
+            }
+
+            for (var j = 0; j < close.length; j++) {
+                close[j].onclick = function() {
+                    popup.classList.remove('visible--popup');
+                    overlay.classList.remove('visible--overlay');
+                }
+            }
+
+        }
+
+        popupCenter();
+
+        window.onscroll = function() {
+            popupCenter();
+        };
+
+        window.onresize = function() {
+            popupCenter();
+        };
+
+
     });
 
 
