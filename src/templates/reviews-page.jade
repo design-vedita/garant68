@@ -1,0 +1,26 @@
+include includes/head
+include includes/header
+include includes/breadcrumbs
+include includes/popup
+include includes/reviews-all
+include includes/footer
+include includes/scripts
+include includes/mixins
+doctype html
+html(lang="en")
+    head
+        +head('Комментарии')
+    body
+        include blocks/svg.html
+        // Шапка сайта
+        +header()
+        //
+        .content
+            +breadcrumbs('Комментарии')
+
+            +reviews-all()
+
+        footer
+            +footer()
+            +popup()
+            +scripts()
