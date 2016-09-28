@@ -16,7 +16,12 @@
             spaceBetween: 7,
             mousewheelControl: true,
             autoplay: 2500,
-            autoplayDisableOnInteraction: true
+            autoplayDisableOnInteraction: true,
+            breakpoints: {
+                992: {
+                    slidesPerView: 2.7
+                }
+            }
         });
 
         var swiper2 = new Swiper('.js-classes', {
@@ -27,7 +32,12 @@
             spaceBetween: 7,
             mousewheelControl: true,
             autoplay: 2500,
-            autoplayDisableOnInteraction: true
+            autoplayDisableOnInteraction: true,
+            breakpoints: {
+                992: {
+                    slidesPerView: 2.7
+                }
+            }
         });
 
 
@@ -57,13 +67,13 @@
                 });
 
 
-            var myPlacemark2 = new ymaps.Placemark([52.89607457144356,40.506563499999984], {
+            var myPlacemark = new ymaps.Placemark([52.951749,40.486755], {
                 address: "",
                 object: ""
             }, {
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: '../img/point-map.png',
+                iconImageHref: '/include/img/point-map.png',
                 // Размеры метки.
                 iconImageSize: [30, 40],
                 // Смещение левого верхнего угла иконки относительно
@@ -71,13 +81,54 @@
                 iconImageOffset: [-3, -42]
             });
 
-            var myPlacemark = new ymaps.Placemark([52.705583571586466,41.39699149999999], {
+            var myPlacemark2 = new ymaps.Placemark([52.89607457144356,40.506563499999984], {
                 address: "",
                 object: ""
             }, {
                 iconLayout: 'default#image',
                 // Своё изображение иконки метки.
-                iconImageHref: '../img/point-map.png',
+                iconImageHref: '/include/img/point-map.png',
+                // Размеры метки.
+                iconImageSize: [30, 40],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-3, -42]
+            });
+
+            var myPlacemark3 = new ymaps.Placemark([52.705583571586466,41.39699149999999], {
+                address: "",
+                object: ""
+            }, {
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: '/include/img/point-map.png',
+                // Размеры метки.
+                iconImageSize: [30, 40],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-3, -42]
+            });
+            var myPlacemark4 = new ymaps.Placemark([52.675601,41.465326], {
+                address: "",
+                object: ""
+            }, {
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: '/include/img/point-map.png',
+                // Размеры метки.
+                iconImageSize: [30, 40],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-3, -42]
+            });
+
+            var myPlacemark5 = new ymaps.Placemark([52.758893,41.429034], {
+                address: "",
+                object: ""
+            }, {
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: '/include/img/point-map.png',
                 // Размеры метки.
                 iconImageSize: [30, 40],
                 // Смещение левого верхнего угла иконки относительно
@@ -87,6 +138,9 @@
 
             myMap.geoObjects.add(myPlacemark);
             myMap.geoObjects.add(myPlacemark2);
+            myMap.geoObjects.add(myPlacemark3);
+            myMap.geoObjects.add(myPlacemark4);
+            myMap.geoObjects.add(myPlacemark5);
             myMap.behaviors.disable('scrollZoom');
         });
 
@@ -162,6 +216,12 @@
             popupCenter();
         };
 
+        var $otherActions = $('.one-action .other-action');
+
+        if ($otherActions.length) {
+            $('.actions-content').append( $('<div class="one-action"></div>').append($('.one-action .other-action')) );
+            $('.one-action + p').remove();
+        }
 
     });
 
