@@ -18,8 +18,20 @@
             autoplay: 2500,
             autoplayDisableOnInteraction: true,
             breakpoints: {
+                1200: {
+                    slidesPerView: 6.2
+                },
                 992: {
-                    slidesPerView: 2.7
+                    slidesPerView: 5.2
+                },
+                768: {
+                    slidesPerView: 4.2
+                },
+                480: {
+                    slidesPerView: 3.2
+                },
+                400: {
+                    slidesPerView: 2.2
                 }
             }
         });
@@ -34,8 +46,20 @@
             autoplay: 2500,
             autoplayDisableOnInteraction: true,
             breakpoints: {
+                1200: {
+                    slidesPerView: 6.2
+                },
                 992: {
-                    slidesPerView: 2.7
+                    slidesPerView: 5.2
+                },
+                768: {
+                    slidesPerView: 4.2
+                },
+                480: {
+                    slidesPerView: 3.2
+                },
+                400: {
+                    slidesPerView: 2.2
                 }
             }
         });
@@ -207,6 +231,48 @@
         }
 
         popupCenter();
+
+        function openSubmenuPhone() {
+
+            var links = document.getElementsByClassName('js-arrow');
+
+            if(links) {
+
+                for (var i = 0; i < links.length; i++) {
+
+                    links[i].onclick = function() {
+                        this.classList.toggle('click--arrow');
+
+                        var parent = this.parentNode,
+                            ul = parent.querySelector('ul');
+
+                            ul.classList.toggle('view--submenu');
+
+                    }
+                }
+            }
+        }
+
+        openSubmenuPhone();
+
+
+        function burgerMenu() {
+
+            var burger = document.getElementsByClassName('js-burger')[0];
+
+                if(burger) {
+
+                    burger.onclick = function() {
+                        var parent = this.parentNode,
+                            ul  = parent.querySelector('ul');
+
+                        ul.classList.toggle('open--menu');
+
+                    }
+                }
+        }
+
+        burgerMenu();
 
         window.onscroll = function() {
             popupCenter();
