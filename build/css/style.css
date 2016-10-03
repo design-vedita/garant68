@@ -315,7 +315,7 @@ header .menu ul li {
   header .menu ul li .arrow-block.click--arrow {
     transform: rotate(0deg);
   }
-  header .menu ul li svg {
+  header .menu ul li img {
     position: absolute;
     left: 0;
     top: 0;
@@ -382,13 +382,17 @@ header .menu ul li ul a:hover {
 header .menu ul li ul li {
   display: block;
   margin: 0 !important;
-  padding: 7px 30px !important;
+  padding: 0 !important;
+}
+header .menu ul li ul li.item-selected a {
+  color: #ffba00;
 }
 header .menu ul li ul li a {
   display: block;
   text-transform: none;
   font-size: 15px;
   color: white;
+  padding: 7px 30px !important;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   header .menu {
@@ -1890,6 +1894,11 @@ header .menu ul li ul li a {
     text-align: center;
   }
 }
+.content .actions-content p.in-city {
+  margin-top: 35px;
+  font-size: 25px;
+  color: #3f4045;
+}
 .content .actions-content__list {
   margin-top: 37px;
 }
@@ -1899,7 +1908,7 @@ header .menu ul li ul li a {
 }
 .content .actions-content__item {
   margin-bottom: 77px;
-  height: 420px;
+  /*height: 420px;*/
 }
 .content .actions-content__item img {
   width: 100%;
@@ -1987,6 +1996,18 @@ header .menu ul li ul li a {
   color: #636363;
   background-image: url(../img/phone-green.svg);
   background-size: 15px 14px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.content .contacts__text p.mail {
+  margin-top: 4px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 600;
+  color: #636363;
+  background-image: url(../img/mail.svg);
   background-repeat: no-repeat;
   background-position: left center;
 }

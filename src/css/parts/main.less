@@ -401,7 +401,7 @@ header {
 							}
 						}
 
-						svg {
+						img {
 							position: absolute;
 							left: 0;
 							top: 0;
@@ -487,13 +487,21 @@ header {
 					li {
 						display:block;
 						margin:0 !important;
-						padding: 7px 30px !important;
+						padding: 0 !important;
+
+						&.item-selected {
+
+							a {
+								color: @orange;
+							}
+						}
 
 						a {
 							display:block;
 							text-transform: none;
 							font-size: 15px;
 							color:white;
+							padding: 7px 30px !important;
 						}
 
 					}
@@ -2415,6 +2423,15 @@ header {
 
 	.actions-content {
 
+		p {
+
+			&.in-city {
+				margin-top: 35px;
+				font-size: 25px;
+				color: @h2-color;
+			}
+		}
+
 		&__list {
 			margin-top: 37px;
 
@@ -2426,7 +2443,7 @@ header {
 
 		&__item {
 			margin-bottom: 77px;
-			height: 420px;
+			/*height: 420px;*/
 
 			img {
 				width: 100%;
@@ -2481,6 +2498,19 @@ header {
 					color: @phone-contact;
 					background-image: url(../img/phone-green.svg);
 					background-size: 15px 14px;
+					background-repeat: no-repeat;
+					background-position: left center;
+				}
+
+				&.mail {
+					margin-top: 4px;
+					margin-bottom: 20px;
+					padding-left: 30px;
+					font-size: 16px;
+					line-height: normal;
+					font-weight: 600;
+					color: @phone-contact;
+					background-image: url(../img/mail.svg);
 					background-repeat: no-repeat;
 					background-position: left center;
 				}
