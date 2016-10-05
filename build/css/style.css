@@ -425,6 +425,7 @@ header .menu ul li ul li a {
   }
 }
 .content {
+  position: relative;
   /*dread-man-style*/
   /*---------------*/
 }
@@ -902,6 +903,9 @@ header .menu ul li ul li a {
   fill: #e9e4e1;
 }
 .content .index-text {
+  position: absolute;
+  left: 0;
+  width: 100%;
   padding-top: 47px;
 }
 .content .index-text img.licension {

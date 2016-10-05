@@ -274,12 +274,30 @@
 
         burgerMenu();
 
+        function positionText() {
+            var heightBlock = document.getElementsByClassName('js-height')[0],
+                textBlock = document.getElementsByClassName('js-text')[0];
+
+            if(heightBlock || textBlock) {
+
+                var height = heightBlock.offsetHeight,
+                    heightText = textBlock.offsetHeight;
+
+                textBlock.style.top = height + 'px';
+                heightBlock.style.marginBottom = heightText + 'px';
+            }
+
+        }
+
+        positionText();
+
         window.onscroll = function() {
             popupCenter();
         };
 
         window.onresize = function() {
             popupCenter();
+            positionText();
         };
 
         var $otherActions = $('.one-action .other-action');
