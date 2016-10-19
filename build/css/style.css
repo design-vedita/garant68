@@ -247,6 +247,7 @@ header .menu .burger span {
 }
 header .menu::before {
   position: absolute;
+  z-index: 1;
   left: -53px;
   top: 0;
   display: block;
@@ -260,6 +261,7 @@ header .menu::before {
 }
 header .menu::after {
   position: absolute;
+  z-index: 1;
   right: -53px;
   top: 0;
   display: block;
@@ -470,7 +472,8 @@ header .menu ul li ul li a {
   height: 41px;
   fill: #fff;
 }
-.content .reservation__title span {
+.content .reservation__title h2 {
+  display: inline;
   vertical-align: middle;
   font-size: 39px;
   font-weight: bold;
@@ -478,7 +481,7 @@ header .menu ul li ul li a {
   text-transform: uppercase;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .content .reservation__title span {
+  .content .reservation__title h2 {
     font-size: 21px;
   }
 }
@@ -949,19 +952,34 @@ header .menu ul li ul li a {
   background-color: #d92b2c;
   content: '';
 }
-.content .reviews .title-block {
+.content .reviews h3 {
+  position: relative;
+  padding-bottom: 8px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2d2d32;
   text-align: center;
 }
-.content .reviews .title-block::before {
+.content .reviews h3::before {
+  position: absolute;
   left: calc(50% - 97px);
+  bottom: 0;
+  display: block;
+  width: 195px;
+  height: 3px;
+  background-color: #d92b2c;
+  content: '';
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .content .reviews .title-block {
+  .content .reviews h3 {
     text-align: left;
   }
-  .content .reviews .title-block::before {
+  .content .reviews h3::before {
     left: 0;
   }
+}
+.content .reviews .title-block {
+  text-align: center;
 }
 .content .reviews a.all-reviews {
   margin: 30px auto 60px;
@@ -1309,6 +1327,31 @@ header .menu ul li ul li a {
   .content .scheme {
     padding-top: 33px;
   }
+}
+.content .scheme h2 {
+  position: relative;
+  padding-bottom: 8px;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2d2d32;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .content .scheme h2 {
+    font-size: 26px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+  }
+}
+.content .scheme h2::before {
+  position: absolute;
+  left: calc(50% - 97px);
+  bottom: 0;
+  display: block;
+  width: 195px;
+  height: 3px;
+  background-color: #d92b2c;
+  content: '';
 }
 .content .scheme p.title-block {
   text-align: center;
@@ -2313,6 +2356,12 @@ header .menu ul li ul li a {
 .content .routes .plans__block .item {
   text-align: center;
 }
+.content .routes .plans__block .item img {
+  transition: all 300ms linear;
+}
+.content .routes .plans__block .item img:hover {
+  box-shadow: 0px 2px 17px 0 rgba(0, 0, 0, 0.25);
+}
 .content .routes p {
   font-size: 15px;
   line-height: 22px;
@@ -2384,6 +2433,10 @@ header .menu ul li ul li a {
   background-position: left center;
   background-repeat: no-repeat;
   color: #2d2d32;
+  transition: color 300ms linear;
+}
+.content .programms a:hover {
+  color: #ffa200;
 }
 @media (max-width: 767px) {
   .content .programms a {
