@@ -1,7 +1,7 @@
 include menu
 
 mixin header()
-   header
+   header.js-header
       .container
          .row
             .col-md-3
@@ -31,7 +31,9 @@ mixin header()
                a(href="javascript:void(0)").reservation.js-view-popup
                   +svg('car')
                   span  Забронировать место
-         .row
+      .back-menu.js-menu
+         .container
+            .row
             .col-md-12
                +menu()
 

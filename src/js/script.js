@@ -168,6 +168,40 @@
             myMap.behaviors.disable('scrollZoom');
         });
 
+        viewGallery();
+        popupCenter();
+        openSubmenuPhone();
+        burgerMenu();
+        positionText();
+        fixedMenu();
+
+        window.onscroll = function() {
+            popupCenter();
+            fixedMenu();
+        };
+
+        window.onresize = function() {
+            popupCenter();
+            positionText();
+        };
+
+        function fixedMenu() {
+            var $menu = $('.js-menu'),
+                $header = $('.js-header'),
+                scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            var $headerHeight = $header.outerHeight(),
+                $menuHeight = $menu.outerHeight();
+
+            if (scrollTop >= $headerHeight) {
+                $menu.addClass('fixed');
+                $header.css({'padding-bottom': $menuHeight + 'px'});
+            } else {
+                $menu.removeClass('fixed');
+                $header.css({'padding-bottom': 0});
+            }
+        }
+
         function viewGallery() {
             var links = document.getElementsByClassName('js-c_link'),
                 carousels = document.getElementsByClassName('js-carousel');
@@ -188,13 +222,10 @@
                     }
 
                     var carousel = document.getElementsByClassName(openBlock)[0];
-                        carousel.classList.remove('no--visible');
+                    carousel.classList.remove('no--visible');
                 }
             }
         }
-
-        viewGallery();
-
 
         function popupCenter() {
             var links = document.getElementsByClassName('js-view-popup'),
@@ -216,6 +247,7 @@
             for (var i = 0; i < links.length; i++) {
 
                 links[i].onclick = function() {
+                    try {yaCounter36604400.reachGoal('viziv')} catch(e) {}
                     popup.classList.add('visible--popup');
                     overlay.classList.add('visible--overlay');
                 }
@@ -230,7 +262,19 @@
 
         }
 
-        popupCenter();
+        function positionText() {
+            var heightBlock = document.getElementsByClassName('js-height')[0],
+                textBlock = document.getElementsByClassName('js-text')[0];
+
+            if(heightBlock || textBlock) {
+
+                var height = heightBlock.offsetHeight,
+                    heightText = textBlock.offsetHeight;
+
+                textBlock.style.top = height + 'px';
+                heightBlock.style.marginBottom = heightText + 'px';
+            }
+        }
 
         function openSubmenuPhone() {
 
@@ -246,59 +290,28 @@
                         var parent = this.parentNode,
                             ul = parent.querySelector('ul');
 
-                            ul.classList.toggle('view--submenu');
+                        ul.classList.toggle('view--submenu');
 
                     }
                 }
             }
         }
-
-        openSubmenuPhone();
-
 
         function burgerMenu() {
 
             var burger = document.getElementsByClassName('js-burger')[0];
 
-                if(burger) {
+            if(burger) {
 
-                    burger.onclick = function() {
-                        var parent = this.parentNode,
-                            ul  = parent.querySelector('ul');
+                burger.onclick = function() {
+                    var parent = this.parentNode,
+                        ul  = parent.querySelector('ul');
 
-                        ul.classList.toggle('open--menu');
+                    ul.classList.toggle('open--menu');
 
-                    }
                 }
-        }
-
-        burgerMenu();
-
-        function positionText() {
-            var heightBlock = document.getElementsByClassName('js-height')[0],
-                textBlock = document.getElementsByClassName('js-text')[0];
-
-            if(heightBlock || textBlock) {
-
-                var height = heightBlock.offsetHeight,
-                    heightText = textBlock.offsetHeight;
-
-                textBlock.style.top = height + 'px';
-                heightBlock.style.marginBottom = heightText + 'px';
             }
-
         }
-
-        positionText();
-
-        window.onscroll = function() {
-            popupCenter();
-        };
-
-        window.onresize = function() {
-            popupCenter();
-            positionText();
-        };
 
         var $otherActions = $('.one-action .other-action');
 

@@ -213,6 +213,12 @@ header a.reservation span {
     background-color: #38414a;
   }
 }
+header .back-menu.fixed {
+  position: fixed;
+  z-index: 2;
+  top: -3px;
+  width: 100%;
+}
 header .menu {
   position: relative;
   padding-top: 15px;
