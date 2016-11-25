@@ -91,7 +91,7 @@
                 });
 
 
-            var myPlacemark = new ymaps.Placemark([52.951749,40.486755], {
+            var myPlacemark = new ymaps.Placemark([52.705583571586466,41.39699149999999], {
                 address: "",
                 object: ""
             }, {
@@ -105,7 +105,7 @@
                 iconImageOffset: [-3, -42]
             });
 
-            var myPlacemark2 = new ymaps.Placemark([52.89607457144356,40.506563499999984], {
+            var myPlacemark2 = new ymaps.Placemark([52.72297557157375,41.44852749999998], {
                 address: "",
                 object: ""
             }, {
@@ -119,7 +119,7 @@
                 iconImageOffset: [-3, -42]
             });
 
-            var myPlacemark3 = new ymaps.Placemark([52.705583571586466,41.39699149999999], {
+            var myPlacemark3 = new ymaps.Placemark([52.896102071472434,40.506563499999984], {
                 address: "",
                 object: ""
             }, {
@@ -132,7 +132,7 @@
                 // её "ножки" (точки привязки).
                 iconImageOffset: [-3, -42]
             });
-            var myPlacemark4 = new ymaps.Placemark([52.675601,41.465326], {
+           /* var myPlacemark4 = new ymaps.Placemark([52.675601,41.465326], {
                 address: "",
                 object: ""
             }, {
@@ -158,13 +158,13 @@
                 // Смещение левого верхнего угла иконки относительно
                 // её "ножки" (точки привязки).
                 iconImageOffset: [-3, -42]
-            });
+            });*/
 
             myMap.geoObjects.add(myPlacemark);
             myMap.geoObjects.add(myPlacemark2);
             myMap.geoObjects.add(myPlacemark3);
-            myMap.geoObjects.add(myPlacemark4);
-            myMap.geoObjects.add(myPlacemark5);
+            /*myMap.geoObjects.add(myPlacemark4);
+            myMap.geoObjects.add(myPlacemark5);*/
             myMap.behaviors.disable('scrollZoom');
         });
 

@@ -625,6 +625,21 @@ header .menu ul li ul li a {
     line-height: 54px;
   }
 }
+.content .new-office {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #65b936;
+  font: 55px 'Open Sans Condensed', sans-serif;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .content .new-office {
+    font-size: 30px;
+  }
+}
+.content .new-office p {
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.5);
+}
 .content .utp {
   position: relative;
   padding-top: 20px;
