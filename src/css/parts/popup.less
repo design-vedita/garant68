@@ -17,17 +17,20 @@
 .popup {
 	position: absolute;
 	z-index: 10;
+	height: 0;
 	max-width: 746px;
-	width: 100%;
+	width: 100%;;
 	border-radius: 5px;
 	background-color: @white;
 	opacity: 0;
 	visibility: hidden;
+	overflow: hidden;
 	transition-property: opacity, visibility;
 	transition-duration: 300ms;
 	transition-timing-function: linear;
 
 		&.visible--popup {
+			height: auto;
 			opacity: 1;
 			visibility: visible;
 		}

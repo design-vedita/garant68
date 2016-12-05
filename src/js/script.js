@@ -240,9 +240,10 @@
             var width = popup.offsetWidth,
                 height = popup.offsetHeight;
 
-            popup.style.left = scrollLeft + (docElem.clientWidth - width) / 2 + 'px';
-            popup.style.top = scrollTop + (docElem.clientHeight - height) / 2 + 'px';
-
+            if (popup.classList.contains('visible--popup')) {
+                popup.style.left = scrollLeft + (docElem.clientWidth - width) / 2 + 'px';
+                popup.style.top = scrollTop + (docElem.clientHeight - height) / 2 + 'px';
+            }
 
             for (var i = 0; i < links.length; i++) {
 

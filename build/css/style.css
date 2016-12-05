@@ -219,6 +219,11 @@ header .back-menu.fixed {
   top: -3px;
   width: 100%;
 }
+@media (max-width: 767px) {
+  header .back-menu.fixed {
+    top: -12px;
+  }
+}
 header .menu {
   position: relative;
   padding-top: 15px;
@@ -2787,17 +2792,20 @@ footer .footer-logo {
 .popup {
   position: absolute;
   z-index: 10;
+  height: 0;
   max-width: 746px;
   width: 100%;
   border-radius: 5px;
   background-color: #fff;
   opacity: 0;
   visibility: hidden;
+  overflow: hidden;
   transition-property: opacity, visibility;
   transition-duration: 300ms;
   transition-timing-function: linear;
 }
 .popup.visible--popup {
+  height: auto;
   opacity: 1;
   visibility: visible;
 }
