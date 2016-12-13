@@ -2356,7 +2356,12 @@ header .menu ul li ul li a {
 .content .price-content table.price-table thead td:last-child {
   background-color: #2d2d32;
 }
-.content .price-content table.price-table tbody tr:nth-of-type(odd) td {
+.content .price-content table.price-table tbody tr:nth-of-type(1) td,
+.content .price-content table.price-table tbody tr:nth-of-type(2) td,
+.content .price-content table.price-table tbody tr:nth-of-type(3) td,
+.content .price-content table.price-table tbody tr:nth-of-type(7) td,
+.content .price-content table.price-table tbody tr:nth-of-type(8) td,
+.content .price-content table.price-table tbody tr:nth-of-type(9) td {
   background-color: #e8e8e8;
 }
 .content .price-content table.price-table tbody tr:last-child td {
