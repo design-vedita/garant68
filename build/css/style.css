@@ -461,6 +461,30 @@ header .menu ul li ul li a {
     height: auto;
   }
 }
+.content .reservation h2 {
+  display: inline;
+  vertical-align: middle;
+  font-size: 39px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .content .reservation h2 {
+    font-size: 21px;
+  }
+}
+.content .reservation .h2 {
+  font-size: 39px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .content .reservation .h2 {
+    font-size: 21px;
+  }
+}
 .content .reservation__title__wrap {
   display: inline-block;
   vertical-align: middle;
@@ -482,19 +506,6 @@ header .menu ul li ul li a {
   width: 49px;
   height: 41px;
   fill: #fff;
-}
-.content .reservation__title h2 {
-  display: inline;
-  vertical-align: middle;
-  font-size: 39px;
-  font-weight: bold;
-  color: #fff;
-  text-transform: uppercase;
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  .content .reservation__title h2 {
-    font-size: 21px;
-  }
 }
 .content .reservation p.price {
   margin-bottom: 0;
@@ -584,6 +595,9 @@ header .menu ul li ul li a {
 }
 .content .reservation form input[type=submit]:hover {
   background-image: linear-gradient(to top, #8c041d, #ce062b);
+}
+.content__reservation-moskow {
+  background-image: url(../img/reservation-car.jpg) !important;
 }
 .content .guarantie {
   width: 100%;
@@ -727,6 +741,9 @@ header .menu ul li ul li a {
   position: absolute;
   right: 4px;
   bottom: 0;
+}
+.content .utp .girl-car img {
+  width: 435px;
 }
 .content .type-learn {
   padding-top: 44px;

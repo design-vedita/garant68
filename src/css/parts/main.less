@@ -593,6 +593,36 @@ header {
 			}
 		}
 
+		h2{
+			display: inline;
+			vertical-align: middle;
+			font-size: 39px;
+			font-weight: bold;
+			color: @white;
+			text-transform: uppercase;
+
+			@media (min-width: 320px) and (max-width: 767px) {
+
+				& {
+					font-size: 21px;
+				}
+			}
+		}
+
+		.h2 {
+			font-size: 39px;
+			font-weight: bold;
+			color: @white;
+			text-transform: uppercase;
+
+			@media (min-width: 320px) and (max-width: 767px) {
+
+				& {
+					font-size: 21px;
+				}
+			}
+		}
+
 		&__title {
 
 			&__wrap {
@@ -618,22 +648,6 @@ header {
 					width: 49px;
 					height: 41px;
 					fill: @white;
-				}
-			}
-
-			h2 {
-				display: inline;
-				vertical-align: middle;
-				font-size: 39px;
-				font-weight: bold;
-				color: @white;
-				text-transform: uppercase;
-
-				@media (min-width: 320px) and (max-width: 767px) {
-
-					& {
-						font-size: 21px;
-					}
 				}
 			}
 		}
@@ -748,6 +762,10 @@ header {
 				}
 			}
 		}
+	}
+
+	&__reservation-moskow {
+		background-image: url(../img/reservation-car.jpg) !important;
 	}
 
 	.guarantie {
@@ -914,6 +932,13 @@ header {
 				 right: 4px;
 				 bottom: 0;
 			 }
+
+			&-car {
+
+				img {
+					width: 435px;
+				}
+			}
 		}
 	}
 
