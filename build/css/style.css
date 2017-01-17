@@ -88,7 +88,7 @@ header ul.list-category li {
 header .address-header {
   margin-left: -29px;
   padding-left: 35px;
-  background-image: url(../img/point.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22132%22%20height%3D%22178.063%22%20viewBox%3D%220%200%20132%20178.063%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%2365b936%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M817%2014.993c-36.393%200-66%2029.408-66%2065.555a63.579%2063.579%200%200%200%205.773%2026.761c16.5%2035.861%2048.14%2073.726%2057.447%2084.479a3.689%203.689%200%200%200%205.567%200c9.3-10.752%2040.942-48.613%2057.449-84.479a63.593%2063.593%200%200%200%205.771-26.761c-.007-36.148-29.613-65.555-66.007-65.555zm0%2099.605a34.054%2034.054%200%201%201%2034.286-34.05%2034.209%2034.209%200%200%201-34.286%2034.052z%22%20transform%3D%22translate(-751%20-15)%22%2F%3E%3C%2Fsvg%3E");
   background-size: 24px 32px;
   background-position: left top;
   background-repeat: no-repeat;
@@ -1326,7 +1326,7 @@ header .menu ul li ul li a {
 }
 .content .gallery .swiper-container .swiper-slide:hover a::after {
   background-color: #fff;
-  background-image: url(../img/plus.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2030%2030%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%2365b936%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M522%203167a15%2015%200%201%201%2015-15%2015%2015%200%200%201-15%2015zm0-27.19a12.19%2012.19%200%201%200%2012.187%2012.19%2012.191%2012.191%200%200%200-12.187-12.19zm6.094%2013.6h-4.688v4.68a1.406%201.406%200%201%201-2.812%200v-4.68h-4.688a1.41%201.41%200%200%201%200-2.82h4.688v-4.68a1.406%201.406%200%201%201%202.812%200v4.68h4.688a1.41%201.41%200%200%201%200%202.82z%22%20transform%3D%22translate(-507%20-3137)%22%2F%3E%3C%2Fsvg%3E");
 }
 .content .gallery .swiper-container .swiper-slide a::before {
   position: absolute;
@@ -1432,13 +1432,13 @@ header .menu ul li ul li a {
   top: 0;
   bottom: 0;
   margin: auto;
-  background-image: url(../img/bg-scheme.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22100%22%20height%3D%2212%22%20viewBox%3D%220%200%20100%2012%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%23c4c4c4%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20id%3D%22Ellipse_9_copy_6%22%20class%3D%22cls-1%22%20d%3D%22M1042%203525a6%206%200%201%201-6%206%206%206%200%200%201%206-6zm20%200a6%206%200%201%201-6%206%206%206%200%200%201%206-6zm20%200a6%206%200%201%201-6%206%206%206%200%200%201%206-6zm20%200a6%206%200%201%201-6%206%206%206%200%200%201%206-6zm19%200a6%206%200%201%201-6%206%206%206%200%200%201%206-6z%22%20transform%3D%22translate(-1031.5%20-3525)%22%2F%3E%3C%2Fsvg%3E");
   background-position: 0 30%;
   background-repeat: repeat-x;
 }
 @media (max-width: 767px) {
   .content .scheme__back {
-    background-image: url(../img/bg-scheme-2.svg);
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2212%22%20height%3D%2291%22%20viewBox%3D%220%200%2012%2091%22%3E%0A%20%20%3Cimage%20id%3D%22%D0%A1%D0%BB%D0%BE%D0%B9_1%22%20data-name%3D%22%D0%A1%D0%BB%D0%BE%D0%B9%201%22%20width%3D%2212%22%20height%3D%2291%22%20xlink%3Ahref%3D%22data%3Aimg%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAwAAABbCAMAAABwIJSaAAAABGdBTUEAALGPC%2FxhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAANlBMVEUAAADExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMQAAAAN7AvgAAAAEHRSTlMABm7H8xvP0Adt%2BfjRb8v03bb1CgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAACxIAAAsSAdLdfvwAAABbSURBVDjL7ZBdDoAgDIPLxq8K7P6nBYk6vYAxke%2BpXZasKwBDbC2TQcd5GXjX54cWCRFJLhJYDWNRs96Nfa6RGkIMp96iHg1uj2ByqbXkEec1Zgezgx938Nm3GzMgIOrGAEXqAAAAAElFTkSuQmCC%22%2F%3E%0A%3C%2Fsvg%3E%0A");
     background-position: center;
     background-repeat: repeat-y;
   }
@@ -1579,6 +1579,465 @@ header .menu ul li ul li a {
   font-size: 15px;
   line-height: 22px;
   color: #707070;
+}
+.content .distance-learning .clock {
+  margin-top: 27px;
+  margin-bottom: 34px;
+  padding-left: 30px;
+  font-size: 15px;
+  line-height: 24px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20197%20197%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill%3A%20%23717171%3B%0A%20%20%20%20%20%20%20%20fill-rule%3A%20evenodd%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Cpath%20class%3D%22cls-1%22%20d%3D%22M490.5%2C830A98.5%2C98.5%2C0%2C1%2C0%2C589%2C928.5%2C98.5%2C98.5%2C0%2C0%2C0%2C490.5%2C830Zm6.8%2C110.541a6.6%2C6.6%2C0%2C0%2C1-.081.778c-0.026.194-.037%2C0.394-0.082%2C0.584s-0.119.4-.183%2C0.595a7.114%2C7.114%2C0%2C0%2C1-.249.707c-0.019.039-.025%2C0.081-0.043%2C0.12a6.55%2C6.55%2C0%2C0%2C1-.509.894c-0.012.017-.027%2C0.035-0.039%2C0.052a6.733%2C6.733%2C0%2C0%2C1-.717.869c-0.071.074-.144%2C0.14-0.22%2C0.21a6.487%2C6.487%2C0%2C0%2C1-.719.595c-0.077.056-.152%2C0.116-0.235%2C0.17a6.706%2C6.706%2C0%2C0%2C1-1.02.553c-0.077.035-.157%2C0.055-0.235%2C0.086a6.935%2C6.935%2C0%2C0%2C1-.916.284c-0.113.026-.223%2C0.051-0.337%2C0.072a6.843%2C6.843%2C0%2C0%2C1-1.222.124c-0.083%2C0-.169-0.026-0.253-0.03a6.876%2C6.876%2C0%2C0%2C1-1.163-.125c-0.117-.026-0.233-0.078-0.35-0.109a7.015%2C7.015%2C0%2C0%2C1-1.021-.348c-0.036-.018-0.076-0.022-0.114-0.04l-37.769-17.814a6.813%2C6.813%2C0%2C0%2C1%2C5.811-12.324l28.051%2C13.229v-58.8a6.812%2C6.812%2C0%2C0%2C1%2C13.624%2C0v69.542h0C497.313%2C940.46%2C497.3%2C940.5%2C497.3%2C940.54Z%22%20transform%3D%22translate(-392%20-830)%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+  background-size: 21px 21px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+.content .distance-learning__means {
+  padding-top: 30px;
+  padding-bottom: 52px;
+  background-color: #eee;
+}
+@media (max-width: 767px) {
+  .content .distance-learning__means {
+    padding-bottom: 28px;
+  }
+}
+.content .distance-learning__wrap-tale {
+  margin-top: 15px;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+@media (max-width: 1199px) {
+  .content .distance-learning__wrap-tale {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.content .distance-learning__wrap-tale::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.content .distance-learning .title-means {
+  margin-bottom: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #3f4045;
+}
+.content .distance-learning .title-means span {
+  display: block;
+}
+.content .distance-learning__position-block {
+  position: relative;
+  z-index: 1;
+}
+.content .distance-learning__tale {
+  padding-top: 43px;
+  padding-bottom: 32px;
+  float: left;
+  width: 33%;
+  background-color: #fff;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.11);
+}
+@media (max-width: 767px) {
+  .content .distance-learning__tale {
+    width: 100%;
+  }
+}
+.content .distance-learning__tale.center {
+  position: relative;
+  padding-bottom: 44px;
+  width: 34%;
+  background-color: #57a22d;
+  box-shadow: none;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .content .distance-learning__tale.center {
+    width: 100%;
+  }
+}
+.content .distance-learning__tale.center::before {
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: -22px;
+  content: '';
+  display: block;
+  width: 100%;
+  height: calc(100% + 44px);
+  background-color: #57a22d;
+}
+@media (max-width: 767px) {
+  .content .distance-learning__tale.center::before {
+    left: -15px;
+    width: calc(100% + 30px);
+  }
+}
+.content .distance-learning__tale.center .title::after {
+  background-color: currentColor;
+}
+.content .distance-learning__tale.center .distance-learning__name {
+  color: currentColor;
+}
+.content .distance-learning__tale.center .distance-learning__ico {
+  margin-bottom: 53px;
+}
+.content .distance-learning__tale.right {
+  width: 32.5%;
+}
+@media (max-width: 767px) {
+  .content .distance-learning__tale.right {
+    width: 100%;
+  }
+}
+.content .distance-learning .title {
+  position: relative;
+  padding-bottom: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.content .distance-learning .title::after {
+  position: absolute;
+  left: calc(50% - 20.5px);
+  bottom: 0;
+  content: '';
+  display: block;
+  width: 41px;
+  height: 1px;
+  background-color: #b4b4b4;
+}
+.content .distance-learning__name {
+  margin-bottom: 24px;
+  font-size: 36px;
+  text-align: center;
+  color: #232323;
+}
+.content .distance-learning__ico {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 46px;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  border: 1px #65b936 solid;
+  box-sizing: border-box;
+}
+.content .distance-learning__ico.foot {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2062%2060%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill%3A%20%2365b936%3B%0A%20%20%20%20%20%20%20%20fill-rule%3A%20evenodd%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Cpath%20id%3D%22Forma_1%22%20data-name%3D%22Forma%201%22%20class%3D%22cls-1%22%20d%3D%22M644%2C1272.52c0-.02%2C0-0.05%2C0-0.08a6.689%2C6.689%2C0%2C0%2C0-2.734-4.97%2C11.546%2C11.546%2C0%2C0%2C0-4.96-1.85c-5.055-.86-6.749-1.34-7.551-1.66l-4.07-10.62%2C5.414-7.59a0.811%2C0.811%2C0%2C0%2C0-.322-1.21l-0.976-.46%2C9.008-9.99a0.816%2C0.816%2C0%2C1%2C0-1.214-1.09l-9.349%2C10.37-0.854-.4a7.7%2C7.7%2C0%2C0%2C0-9.719%2C2.89l-1.98%2C3.15-0.789-.08a12.74%2C12.74%2C0%2C0%2C1-8.723-4.65%2C11.979%2C11.979%2C0%2C0%2C1-2.657-6.58%2C25.19%2C25.19%2C0%2C0%2C0%2C7.838-5.15%2C59.208%2C59.208%2C0%2C0%2C0%2C7.479-9.29%2C0.817%2C0.817%2C0%2C1%2C0-1.376-.88%2C59.276%2C59.276%2C0%2C0%2C1-7.239%2C8.99%2C24.015%2C24.015%2C0%2C0%2C1-6.713%2C4.55c0.011-.16.024-0.33%2C0.042-0.49a1.852%2C1.852%2C0%2C0%2C0-1.051-1.89%2C1.933%2C1.933%2C0%2C0%2C0-2.173.3l-12.473%2C9.45a6.452%2C6.452%2C0%2C0%2C0-1.266%2C1.27%2C7.25%2C7.25%2C0%2C0%2C0-3.462%2C4.89%2C5.685%2C5.685%2C0%2C0%2C0%2C.939%2C4.63l3.567%2C4.37a5.668%2C5.668%2C0%2C0%2C0%2C3.625%2C2.04%2C2.778%2C2.778%2C0%2C0%2C1%2C2.444%2C2.94%2C5.535%2C5.535%2C0%2C0%2C0%2C2.1%2C4.84l12.7%2C9.95a16.41%2C16.41%2C0%2C0%2C0%2C9.463%2C3.78h0.059l15.631-.14c5.1%2C0%2C8.469-1%2C10.019-2.99a4.481%2C4.481%2C0%2C0%2C0%2C.785-3.86A5.955%2C5.955%2C0%2C0%2C0%2C644%2C1272.52Zm-1.636.04a4.614%2C4.614%2C0%2C0%2C1-4.7%2C4.48H625.429a5.993%2C5.993%2C0%2C0%2C1%2C4.334-1.94l2.772-.04a3.605%2C3.605%2C0%2C0%2C0%2C3.542-3.81%2C1.969%2C1.969%2C0%2C0%2C1%2C1.121-1.89l2.265-1.07A5.073%2C5.073%2C0%2C0%2C1%2C642.364%2C1272.56Zm-5.063-5.06-0.8.38a3.6%2C3.6%2C0%2C0%2C0-2.054%2C3.47%2C1.953%2C1.953%2C0%2C0%2C1-.524%2C1.45%2C1.931%2C1.931%2C0%2C0%2C1-1.409.62l-2.772.04a7.672%2C7.672%2C0%2C0%2C0-6.365%2C3.58h-0.858a21.043%2C21.043%2C0%2C0%2C1-9.187-2.12c2.291-3.79%2C2.973-8.76%2C1.969-14.44a36.406%2C36.406%2C0%2C0%2C0-1.872-6.69q1.1%2C0.12%2C2.279.15c0.3%2C0.01.606%2C0.01%2C0.9%2C0.01a35.115%2C35.115%2C0%2C0%2C0%2C6.333-.58l0.3%2C0.78h-2.8a0.815%2C0.815%2C0%2C1%2C0%2C0%2C1.63h3.428l0.506%2C1.32h-2.152a0.82%2C0.82%2C0%2C0%2C0%2C0%2C1.64H625l0.506%2C1.32h-2.331a0.82%2C0.82%2C0%2C0%2C0%2C0%2C1.64h2.959l0.5%2C1.31H624.4a0.82%2C0.82%2C0%2C0%2C0%2C0%2C1.64h2.63l-0.042.08a3.37%2C3.37%2C0%2C0%2C0%2C2.919%2C5%2C3.684%2C3.684%2C0%2C0%2C0%2C.656-0.07%2C11.367%2C11.367%2C0%2C0%2C0%2C5.239-2.46%2C1.835%2C1.835%2C0%2C0%2C1%2C.225.04C636.478%2C1267.31%2C636.9%2C1267.4%2C637.3%2C1267.5Zm-25.753-13.99c0.909%2C2.14%2C5.076%2C12.93.336%2C20.64a20.181%2C20.181%2C0%2C0%2C1-3.867-2.93l-10.59-10.28a10.361%2C10.361%2C0%2C0%2C0%2C3.626-7.79c-0.016-3.05-1.371-6.3-4.028-9.67a31.146%2C31.146%2C0%2C0%2C0-3.177-3.44l4.24-3.21c-0.332%2C2.6.03%2C7.04%2C4.428%2C11.99A15.594%2C15.594%2C0%2C0%2C0%2C611.548%2C1253.51Zm16.844%2C12.06a34.667%2C34.667%2C0%2C0%2C0%2C5.169%2C1.23%2C9.832%2C9.832%2C0%2C0%2C1-3.31%2C1.25%2C1.666%2C1.666%2C0%2C0%2C1-1.724-.68A1.685%2C1.685%2C0%2C0%2C1%2C628.392%2C1265.57Zm-10.339-18.84a6.051%2C6.051%2C0%2C0%2C1%2C7.65-2.27l2.488%2C1.15-4.3%2C6.03a4.816%2C4.816%2C0%2C0%2C0-3.526-2.07l-3.855-.38ZM600.78%2C1235a0.22%2C0.22%2C0%2C0%2C1%2C.146.25%2C13.541%2C13.541%2C0%2C0%2C0%2C2.98%2C10.06%2C14.364%2C14.364%2C0%2C0%2C0%2C9.833%2C5.25l6.464%2C0.64a3.229%2C3.229%2C0%2C0%2C1%2C1.7.69c-3.529.56-13.176%2C1.47-18.165-4.15a14.806%2C14.806%2C0%2C0%2C1-4.083-8.91%2C9.361%2C9.361%2C0%2C0%2C1%2C.413-3.38%2C0.679%2C0.679%2C0%2C0%2C1%2C.317-0.4A0.517%2C0.517%2C0%2C0%2C1%2C600.78%2C1235Zm-12.939%2C9.59%2C4.679-3.54c1.633%2C1.48%2C6.872%2C6.66%2C6.9%2C12.11a8.863%2C8.863%2C0%2C0%2C1-3.168%2C6.64l-8.873-8.61a4.336%2C4.336%2C0%2C0%2C1-1.339-2.96A4.408%2C4.408%2C0%2C0%2C1%2C587.841%2C1244.59Zm44.8%2C35.63-15.607.14a14.7%2C14.7%2C0%2C0%2C1-8.5-3.4c-0.008-.01-0.016-0.01-0.023-0.02l-12.709-9.96a3.9%2C3.9%2C0%2C0%2C1-1.48-3.41%2C4.406%2C4.406%2C0%2C0%2C0-3.85-4.7%2C4.056%2C4.056%2C0%2C0%2C1-2.582-1.45l-3.568-4.37a4.142%2C4.142%2C0%2C0%2C1-.6-3.29%2C5.663%2C5.663%2C0%2C0%2C1%2C.67-1.78c0%2C0.11%2C0%2C.21%2C0%2C0.32a5.975%2C5.975%2C0%2C0%2C0%2C1.836%2C4.07l20.638%2C20.03a22.314%2C22.314%2C0%2C0%2C0%2C15.638%2C6.28h15.15a6.416%2C6.416%2C0%2C0%2C0%2C4.091-1.46%2C2.743%2C2.743%2C0%2C0%2C1-.374.64C640.194%2C1279.39%2C637.094%2C1280.22%2C632.645%2C1280.22Z%22%20transform%3D%22translate(-582%20-1222)%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+  background-size: 62px 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content .distance-learning__ico.online {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20%20viewBox%3D%220%200%2045%2048.97%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill%3A%20%2357a22d%3B%0A%20%20%20%20%20%20%20%20fill-rule%3A%20evenodd%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Cpath%20class%3D%22cls-1%22%20d%3D%22M979.635%2C1253.6l-1.437-3.34c-0.085-.2-0.18-0.39-0.281-0.58a5%2C5%2C0%2C0%2C0-2.77-2.38%2C4.9%2C4.9%2C0%2C0%2C0-3.611.16l-0.554.24-0.708-1.64h0l-0.521-1.21a4.141%2C4.141%2C0%2C0%2C0-2.3-2.24%2C4.016%2C4.016%2C0%2C0%2C0-3.153.08l-1.837.82a3.471%2C3.471%2C0%2C0%2C0-1.235-1.13%2C3.986%2C3.986%2C0%2C0%2C0-3.595.13l-1.315.59-1.7-3.95a4.955%2C4.955%2C0%2C0%2C0-3.528-3.03%2C4.4%2C4.4%2C0%2C0%2C0-3.967%2C1.12%2C5.137%2C5.137%2C0%2C0%2C0-1.13%2C5.75l6.448%2C15.08a7.8%2C7.8%2C0%2C0%2C0-1.686-.15%2C5.818%2C5.818%2C0%2C0%2C0-3.751%2C1.35%2C0.749%2C0.749%2C0%2C0%2C0-.166.14%2C4.444%2C4.444%2C0%2C0%2C0-1.294%2C3.34%2C6.347%2C6.347%2C0%2C0%2C0%2C2.485%2C4.38c0.008%2C0.01.016%2C0.01%2C0.024%2C0.02l13.255%2C10.65a0.93%2C0.93%2C0%2C0%2C0%2C.591.21%2C0.871%2C0.871%2C0%2C0%2C0%2C.385-0.08l18.988-8.53a0.956%2C0.956%2C0%2C0%2C0%2C.569-0.83l0.1-1.69A29.238%2C29.238%2C0%2C0%2C0%2C979.635%2C1253.6Zm0.4%2C13.16-0.067%2C1.1-17.93%2C8.05-12.792-10.29a4.508%2C4.508%2C0%2C0%2C1-1.795-2.97%2C2.453%2C2.453%2C0%2C0%2C1%2C.624-1.74%2C0.522%2C0.522%2C0%2C0%2C0%2C.092-0.08c1.144-1.2%2C4-1.29%2C5.487-.17l3.293%2C3.23a0.944%2C0.944%2C0%2C0%2C0%2C1.351-.03%2C0.99%2C0.99%2C0%2C0%2C0-.027-1.38l-3.2-3.14-7.326-17.13a3.135%2C3.135%2C0%2C0%2C1%2C.7-3.55%2C2.54%2C2.54%2C0%2C0%2C1%2C2.273-.63%2C3.039%2C3.039%2C0%2C0%2C1%2C2.153%2C1.9l5.549%2C12.9a0.961%2C0.961%2C0%2C0%2C0%2C.875.58%2C0.876%2C0.876%2C0%2C0%2C0%2C.385-0.08%2C0.988%2C0.988%2C0%2C0%2C0%2C.49-1.29l-3.078-7.15%2C1.315-.59a2.287%2C2.287%2C0%2C0%2C1%2C1.948-.19%2C2.057%2C2.057%2C0%2C0%2C1%2C.828%2C1.03l3.273%2C7.61a0.96%2C0.96%2C0%2C0%2C0%2C.875.58%2C0.872%2C0.872%2C0%2C0%2C0%2C.384-0.08%2C0.987%2C0.987%2C0%2C0%2C0%2C.491-1.29l-2.886-6.7%2C1.751-.78h0.011a2.114%2C2.114%2C0%2C0%2C1%2C1.69-.05%2C2.242%2C2.242%2C0%2C0%2C1%2C1.231%2C1.2l3.889%2C9.04a0.961%2C0.961%2C0%2C0%2C0%2C.875.58%2C0.879%2C0.879%2C0%2C0%2C0%2C.385-0.08%2C0.988%2C0.988%2C0%2C0%2C0%2C.49-1.29l-1.891-4.39%2C0.547-.24a3.04%2C3.04%2C0%2C0%2C1%2C3.942%2C1.36c0.075%2C0.14.145%2C0.29%2C0.208%2C0.44l1.437%2C3.33A27.293%2C27.293%2C0%2C0%2C1%2C980.039%2C1266.76Zm-3.756-.26-0.942.42a0.991%2C0.991%2C0%2C0%2C0-.492%2C1.29%2C0.945%2C0.945%2C0%2C0%2C0%2C.876.58%2C0.868%2C0.868%2C0%2C0%2C0%2C.383-0.08l0.943-.42a0.988%2C0.988%2C0%2C0%2C0%2C.492-1.29A0.948%2C0.948%2C0%2C0%2C0%2C976.283%2C1266.5Zm-3.8%2C1.73-10.069%2C4.51a0.977%2C0.977%2C0%2C0%2C0-.491%2C1.28%2C0.955%2C0.955%2C0%2C0%2C0%2C.876.59%2C1.039%2C1.039%2C0%2C0%2C0%2C.383-0.08l10.069-4.52a0.976%2C0.976%2C0%2C0%2C0%2C.491-1.28A0.939%2C0.939%2C0%2C0%2C0%2C972.48%2C1268.23Zm-24.826-34.81a0.963%2C0.963%2C0%2C0%2C0%2C.935.78%2C1.29%2C1.29%2C0%2C0%2C0%2C.194-0.02%2C0.982%2C0.982%2C0%2C0%2C0%2C.743-1.16l-0.655-3.24a0.955%2C0.955%2C0%2C0%2C0-1.129-.75%2C0.968%2C0.968%2C0%2C0%2C0-.743%2C1.15Zm-8.218.17a1%2C1%2C0%2C0%2C0-.309-1.35l-0.66-.42a0.947%2C0.947%2C0%2C0%2C0-1.316.32%2C0.983%2C0.983%2C0%2C0%2C0%2C.309%2C1.34l0.661%2C0.42a0.93%2C0.93%2C0%2C0%2C0%2C.5.15A0.966%2C0.966%2C0%2C0%2C0%2C939.436%2C1233.59Zm1.856%2C2.47%2C2.039%2C1.37a0.926%2C0.926%2C0%2C0%2C0%2C.524.16%2C0.964%2C0.964%2C0%2C0%2C0%2C.8-0.44%2C0.985%2C0.985%2C0%2C0%2C0-.273-1.35l-2.039-1.37a0.941%2C0.941%2C0%2C0%2C0-1.324.28A0.987%2C0.987%2C0%2C0%2C0%2C941.292%2C1236.06Zm2.5%2C6.17a0.97%2C0.97%2C0%2C0%2C0-1.129-.76l-3.171.67a0.981%2C0.981%2C0%2C0%2C0-.742%2C1.16%2C0.963%2C0.963%2C0%2C0%2C0%2C.935.78%2C1.29%2C1.29%2C0%2C0%2C0%2C.194-0.02l3.17-.67A0.981%2C0.981%2C0%2C0%2C0%2C943.793%2C1242.23Zm2.4%2C5.03a0.94%2C0.94%2C0%2C0%2C0-1.323.28l-1.779%2C2.76a0.985%2C0.985%2C0%2C0%2C0%2C.273%2C1.35%2C0.926%2C0.926%2C0%2C0%2C0%2C.524.16%2C0.94%2C0.94%2C0%2C0%2C0%2C.8-0.44l1.779-2.76A0.988%2C0.988%2C0%2C0%2C0%2C946.2%2C1247.26Zm10.474-7.99a0.953%2C0.953%2C0%2C0%2C0%2C.935.78%2C0.644%2C0.644%2C0%2C0%2C0%2C.194-0.02l2.114-.44a0.981%2C0.981%2C0%2C0%2C0%2C.742-1.16%2C0.962%2C0.962%2C0%2C0%2C0-1.129-.76l-2.114.45A0.976%2C0.976%2C0%2C0%2C0%2C956.671%2C1239.27Zm6.88-.47a1.29%2C1.29%2C0%2C0%2C0%2C.194-0.02l0.661-.14a0.976%2C0.976%2C0%2C0%2C0%2C.742-1.15%2C0.954%2C0.954%2C0%2C0%2C0-1.129-.76l-0.661.14A0.977%2C0.977%2C0%2C0%2C0%2C963.551%2C1238.8Zm-9.79-3.74a0.924%2C0.924%2C0%2C0%2C0%2C.524.16%2C0.961%2C0.961%2C0%2C0%2C0%2C.8-0.44l1.779-2.77a0.987%2C0.987%2C0%2C0%2C0-.273-1.35%2C0.95%2C0.95%2C0%2C0%2C0-1.324.28l-1.779%2C2.76A1%2C1%2C0%2C0%2C0%2C953.761%2C1235.06Z%22%20transform%3D%22translate(-937%20-1229.03)%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+  background-size: 45px 49px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-color: #fff;
+}
+.content .distance-learning__ico.call-me {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2047%2059%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill%3A%20%2357a22d%3B%0A%20%20%20%20%20%20%20%20fill-rule%3A%20evenodd%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Cpath%20class%3D%22cls-1%22%20d%3D%22M1321.88%2C1276.17v-0.02l-2.85-10.8a3.861%2C3.861%2C0%2C0%2C0-3.76-2.95h-1.72a3.774%2C3.774%2C0%2C0%2C0%2C.59-1.82%2C3.856%2C3.856%2C0%2C0%2C1%2C.98-5.92%2C3.846%2C3.846%2C0%2C0%2C1%2C.98-5.91%2C3.861%2C3.861%2C0%2C0%2C0-.94-2.76%2C3.576%2C3.576%2C0%2C0%2C0%2C.87-0.69%2C3.865%2C3.865%2C0%2C0%2C0%2C1.06-2.87%2C3.781%2C3.781%2C0%2C0%2C0-.71-2.01%2C3.882%2C3.882%2C0%2C0%2C0%2C2.65-2.72l2.85-10.85v-0.02a4.087%2C4.087%2C0%2C0%2C0-.73-3.47%2C3.439%2C3.439%2C0%2C0%2C0-2.71-1.36h-4.48c-4.1%2C0-7.72%2C5.19-9.76%2C13.8h-6.75a5.8%2C5.8%2C0%2C0%2C0-3.78%2C1.39%2C20.316%2C20.316%2C0%2C0%2C1-7.43%2C4.34%2C2.051%2C2.051%2C0%2C0%2C0-1.63-.81h-7.57a2.051%2C2.051%2C0%2C0%2C0-2.04%2C2.05v19.43a2.051%2C2.051%2C0%2C0%2C0%2C2.04%2C2.05h7.57a2.054%2C2.054%2C0%2C0%2C0%2C1.75-.99h3.07a25.811%2C25.811%2C0%2C0%2C1%2C4.21.35l1.56%2C0.26a27.364%2C27.364%2C0%2C0%2C0%2C4.51.38h3.87a37.785%2C37.785%2C0%2C0%2C0%2C3.84%2C11.68c1.88%2C3.32%2C4.14%2C5.07%2C6.54%2C5.07h4.48a3.439%2C3.439%2C0%2C0%2C0%2C2.71-1.36A4.087%2C4.087%2C0%2C0%2C0%2C1321.88%2C1276.17Zm-37.06-13.97a0.2%2C0.2%2C0%2C0%2C1-.21.2h-7.57a0.2%2C0.2%2C0%2C0%2C1-.2-0.2v-19.43a0.2%2C0.2%2C0%2C0%2C1%2C.2-0.2h7.57a0.2%2C0.2%2C0%2C0%2C1%2C.21.2v19.43Zm33.62-38.35a1.6%2C1.6%2C0%2C0%2C1%2C1.26.65%2C2.219%2C2.219%2C0%2C0%2C1%2C.39%2C1.89l-2.85%2C10.85v0.02a2.078%2C2.078%2C0%2C0%2C1-2.05%2C1.49h-1.2l3.9-14.9h0.55Zm-4.48%2C0h2.03l-3.9%2C14.9h-6.64C1307.13%2C1229.79%2C1310.5%2C1223.85%2C1313.96%2C1223.85Zm-14.25%2C38.55a25.689%2C25.689%2C0%2C0%2C1-4.2-.35l-1.57-.26a27.174%2C27.174%2C0%2C0%2C0-4.51-.37h-2.77v-18.08a22.034%2C22.034%2C0%2C0%2C0%2C8.21-4.75%2C3.968%2C3.968%2C0%2C0%2C1%2C2.58-.95h6.34c-0.12.61-.24%2C1.24-0.35%2C1.88a0.929%2C0.929%2C0%2C0%2C0%2C.21.75%2C0.9%2C0.9%2C0%2C0%2C0%2C.7.33h8.71a2.148%2C2.148%2C0%2C0%2C1%2C2.19%2C1.92%2C2.008%2C2.008%2C0%2C0%2C1-.56%2C1.51%2C1.972%2C1.972%2C0%2C0%2C1-1.47.63h-0.98a0.925%2C0.925%2C0%2C0%2C0%2C0%2C1.85%2C2.035%2C2.035%2C0%2C0%2C1%2C2.02%2C2.15%2C2.132%2C2.132%2C0%2C0%2C1-2.18%2C1.92h-0.82a0.92%2C0.92%2C0%2C0%2C0%2C0%2C1.84%2C2.035%2C2.035%2C0%2C0%2C1%2C2.02%2C2.15%2C2.134%2C2.134%2C0%2C0%2C1-2.19%2C1.92h-0.81a0.925%2C0.925%2C0%2C0%2C0%2C0%2C1.85%2C2%2C2%2C0%2C0%2C1%2C1.47.63%2C2.039%2C2.039%2C0%2C0%2C1%2C.55%2C1.51%2C2.137%2C2.137%2C0%2C0%2C1-2.17%2C1.92h-10.42Zm14.25%2C16.75c-3.45%2C0-6.83-5.95-8.51-14.9h6.66l3.88%2C14.9h-2.03Zm5.74-.65a1.6%2C1.6%2C0%2C0%2C1-1.26.65h-0.55l-3.87-14.9h1.25a2.023%2C2.023%2C0%2C0%2C1%2C1.97%2C1.55v0.02l2.85%2C10.79A2.219%2C2.219%2C0%2C0%2C1%2C1319.7%2C1278.5Zm-38.87-23a2.9%2C2.9%2C0%2C1%2C0%2C2.88%2C2.9A2.891%2C2.891%2C0%2C0%2C0%2C1280.83%2C1255.5Zm0%2C3.94a1.045%2C1.045%2C0%2C0%2C1%2C0-2.09A1.045%2C1.045%2C0%2C0%2C1%2C1280.83%2C1259.44Z%22%20transform%3D%22translate(-1275%20-1222)%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+  background-size: 47px 59px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content .distance-learning__info {
+  padding-left: 12px;
+  padding-right: 15px;
+  text-align: center;
+  line-height: 22px;
+}
+.content .distance-learning__info p {
+  margin-bottom: 0;
+}
+.content .distance-learning__info p:last-child {
+  margin-top: 8px;
+}
+.content .distance-learning__info p > span:not(.phones) {
+  position: relative;
+  color: #fff;
+}
+.content .distance-learning__info p > span:not(.phones) span {
+  position: relative;
+  z-index: 1;
+}
+.content .distance-learning__info p > span:not(.phones)::before {
+  position: absolute;
+  z-index: 0;
+  left: -6px;
+  top: 2px;
+  content: '';
+  display: block;
+  width: calc(100% + 12px);
+  height: calc(100% - 4px);
+  background-color: #ffa200;
+  border-radius: 7.5px;
+}
+.content .distance-learning__info p > span.phones {
+  margin-left: 6px;
+}
+@media (max-width: 1199px) {
+  .content .distance-learning__info p > span.phones {
+    display: block;
+  }
+}
+.content .distance-learning__info a {
+  padding: 6px 29px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3f4045;
+  border-radius: 16.5px;
+  background-color: #fff;
+  transition-property: background-color, color;
+  transition-duration: .3s, .3s;
+}
+.content .distance-learning__info a:hover {
+  background-color: #ffa200;
+  color: #fff;
+}
+.content .distance-learning__description {
+  padding-top: 38px;
+  padding-bottom: 31px;
+  text-align: center;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .content .distance-learning__description {
+    padding-top: 42px;
+    padding-bottom: 43px;
+  }
+}
+@media (max-width: 1199px) {
+  .content .distance-learning__description {
+    padding-top: 23px;
+  }
+}
+.content .distance-learning__description p {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 26px;
+}
+.content .distance-learning__description span {
+  font-weight: 600;
+}
+.content .distance-learning__description-text {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+@media (max-width: 1199px) {
+  .content .distance-learning__description-text {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.content .distance-learning__description-dop {
+  margin-top: 37px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 38px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  background-color: #232323;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .content .distance-learning__description-dop {
+    padding-left: 14px;
+    padding-top: 24px;
+    padding-bottom: 28px;
+    margin-right: 0;
+    margin-top: 26px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .content .distance-learning__description-dop {
+    margin-top: 29px;
+    padding-left: 27px;
+  }
+}
+.content .distance-learning__description-dop::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.content .distance-learning__description-dop p {
+  margin-top: -7px;
+  float: left;
+  width: calc(100% - 79px);
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  color: currentColor;
+}
+@media (max-width: 767px) {
+  .content .distance-learning__description-dop p {
+    float: none;
+    width: 100%;
+  }
+}
+.content .distance-learning__description-dop svg {
+  margin-right: 17px;
+  width: 62px;
+  height: 62px;
+  float: left;
+  fill: #ffa200;
+}
+@media (max-width: 767px) {
+  .content .distance-learning__description-dop svg {
+    margin-bottom: 15px;
+    float: none;
+  }
+}
+.content .distance-learning__advantage {
+  padding-top: 47px;
+  padding-bottom: 38px;
+  background-color: #f4f4f4;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .content .distance-learning__advantage {
+    padding-top: 59px;
+  }
+}
+@media (max-width: 767px) {
+  .content .distance-learning__advantage {
+    padding-top: 24px;
+  }
+}
+.content .distance-learning__advantage .title-advantage {
+  margin-bottom: 55px;
+  font-size: 24px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #3f4045;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .content .distance-learning__advantage .title-advantage {
+    text-align: center;
+    line-height: 31px;
+  }
+}
+@media (max-width: 767px) {
+  .content .distance-learning__advantage .title-advantage {
+    margin-bottom: 27px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+.content .distance-learning__item {
+  position: relative;
+}
+.content .distance-learning__item:not('.js-anchor-dist') {
+  padding-bottom: 22px;
+}
+.content .distance-learning__item:not(.last)::after {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  content: '';
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #c1c1c1;
+}
+@media (max-width: 767px) {
+  .content .distance-learning__item:not(.last)::after {
+    right: auto;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+  }
+}
+@media (max-width: 767px) {
+  .content .distance-learning__item.last {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .content .distance-learning__item {
+    margin-bottom: 35px;
+  }
+  .content .distance-learning__item.two::after {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content .distance-learning__item {
+    margin-bottom: 73px;
+  }
+}
+@media (max-width: 767px) {
+  .content .distance-learning__item {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+.content .distance-learning__item .name {
+  position: relative;
+  margin-bottom: 14px;
+  padding-bottom: 13px;
+  font-size: 20px;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #57a22d;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .content .distance-learning__item .name {
+    padding-bottom: 19px;
+    line-height: 24px;
+  }
+}
+.content .distance-learning__item .name::before {
+  position: absolute;
+  left: calc(50% - 41px);
+  bottom: 0;
+  content: '';
+  display: block;
+  width: 82px;
+  height: 3px;
+  background-color: #818181;
+}
+.content .distance-learning__item .description {
+  margin-bottom: 17px;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #76787d;
+}
+.content .distance-learning__item-ico {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 46px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content .distance-learning__item-ico.a-place {
+  width: 51px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2251%22%20height%3D%2246%22%20viewBox%3D%220%200%2051%2046%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill-rule%3A%20evenodd%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Cpath%20class%3D%22cls-1%22%20d%3D%22M557.455%2C1912.17l-24.174-17.91a1.3%2C1.3%2C0%2C0%2C0-1.565%2C0l-24.175%2C17.91a1.346%2C1.346%2C0%2C0%2C0-.286%2C1.87%2C1.311%2C1.311%2C0%2C0%2C0%2C1.852.29L532.5%2C1897l23.392%2C17.33a1.274%2C1.274%2C0%2C0%2C0%2C.781.26%2C1.315%2C1.315%2C0%2C0%2C0%2C1.07-.55A1.344%2C1.344%2C0%2C0%2C0%2C557.455%2C1912.17Zm-6.405%2C2.46a1.341%2C1.341%2C0%2C0%2C0-1.325%2C1.35v21.34h-10.6v-11.65a6.626%2C6.626%2C0%2C1%2C0-13.251%2C0v11.65h-10.6v-21.34a1.325%2C1.325%2C0%2C1%2C0-2.65%2C0v22.68a1.333%2C1.333%2C0%2C0%2C0%2C1.325%2C1.34H527.2a1.328%2C1.328%2C0%2C0%2C0%2C1.32-1.24%2C0.951%2C0.951%2C0%2C0%2C0%2C0-.1v-12.99a3.976%2C3.976%2C0%2C1%2C1%2C7.951%2C0v12.99a0.951%2C0.951%2C0%2C0%2C0%2C0%2C.1%2C1.335%2C1.335%2C0%2C0%2C0%2C1.32%2C1.24H551.05a1.332%2C1.332%2C0%2C0%2C0%2C1.325-1.34v-22.68A1.342%2C1.342%2C0%2C0%2C0%2C551.05%2C1914.63Z%22%20transform%3D%22translate(-507%20-1894)%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+}
+.content .distance-learning__item-ico.your-time {
+  width: 46px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2246%22%20height%3D%2246%22%20viewBox%3D%220%200%2046%2046%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill-rule%3A%20evenodd%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Cpath%20class%3D%22cls-1%22%20d%3D%22M835.264%2C1900.74A22.993%2C22.993%2C0%2C1%2C0%2C842%2C1917%2C22.832%2C22.832%2C0%2C0%2C0%2C835.264%2C1900.74ZM819%2C1938.17A21.17%2C21.17%2C0%2C1%2C1%2C840.167%2C1917%2C21.194%2C21.194%2C0%2C0%2C1%2C819%2C1938.17Zm0-40.56A19.39%2C19.39%2C0%2C1%2C0%2C838.388%2C1917%2C19.412%2C19.412%2C0%2C0%2C0%2C819%2C1897.61Zm15.639%2C27.36L832%2C1923.45a0.913%2C0.913%2C0%2C1%2C0-.917%2C1.58l2.639%2C1.53a17.646%2C17.646%2C0%2C0%2C1-5.163%2C5.16l-1.523-2.64a0.917%2C0.917%2C0%2C1%2C0-1.587.92l1.525%2C2.64a17.475%2C17.475%2C0%2C0%2C1-7.055%2C1.89v-3.05a0.916%2C0.916%2C0%2C1%2C0-1.832%2C0v3.05a17.475%2C17.475%2C0%2C0%2C1-7.055-1.89l1.526-2.64a0.928%2C0.928%2C0%2C0%2C0-.336-1.26%2C0.918%2C0.918%2C0%2C0%2C0-1.251.34l-1.524%2C2.64a17.646%2C17.646%2C0%2C0%2C1-5.163-5.16l2.639-1.53a0.913%2C0.913%2C0%2C1%2C0-.916-1.58l-2.643%2C1.52a17.415%2C17.415%2C0%2C0%2C1-1.893-7.05h3.054a0.92%2C0.92%2C0%2C0%2C0%2C0-1.84h-3.054a17.415%2C17.415%2C0%2C0%2C1%2C1.893-7.05l2.642%2C1.52a0.86%2C0.86%2C0%2C0%2C0%2C.458.13%2C0.927%2C0.927%2C0%2C0%2C0%2C.794-0.46%2C0.913%2C0.913%2C0%2C0%2C0-.335-1.25l-2.64-1.53a17.67%2C17.67%2C0%2C0%2C1%2C5.163-5.16l1.524%2C2.64a0.927%2C0.927%2C0%2C0%2C0%2C.795.46%2C0.943%2C0.943%2C0%2C0%2C0%2C.457-0.12%2C0.927%2C0.927%2C0%2C0%2C0%2C.335-1.26l-1.525-2.64a17.475%2C17.475%2C0%2C0%2C1%2C7.055-1.89v3.05a0.916%2C0.916%2C0%2C1%2C0%2C1.832%2C0v-3.05a17.475%2C17.475%2C0%2C0%2C1%2C7.055%2C1.89l-1.526%2C2.64a0.928%2C0.928%2C0%2C0%2C0%2C.336%2C1.26%2C0.943%2C0.943%2C0%2C0%2C0%2C.457.12%2C0.924%2C0.924%2C0%2C0%2C0%2C.794-0.46l1.524-2.64a17.646%2C17.646%2C0%2C0%2C1%2C5.163%2C5.16l-2.639%2C1.53a0.913%2C0.913%2C0%2C0%2C0-.335%2C1.25%2C0.924%2C0.924%2C0%2C0%2C0%2C.794.46%2C0.856%2C0.856%2C0%2C0%2C0%2C.457-0.13l2.643-1.52a17.414%2C17.414%2C0%2C0%2C1%2C1.892%2C7.05h-3.053a0.92%2C0.92%2C0%2C0%2C0%2C0%2C1.84h3.053A17.4%2C17.4%2C0%2C0%2C1%2C834.639%2C1924.97Zm-14.723-10.52v-5.88a0.916%2C0.916%2C0%2C1%2C0-1.832%2C0v5.88a2.72%2C2.72%2C0%2C0%2C0-1.795%2C2.55%2C2.684%2C2.684%2C0%2C0%2C0%2C.643%2C1.75l-1.455%2C2.52a0.913%2C0.913%2C0%2C0%2C0%2C.336%2C1.25%2C0.943%2C0.943%2C0%2C0%2C0%2C.457.12%2C0.914%2C0.914%2C0%2C0%2C0%2C.794-0.45l1.454-2.52a2.557%2C2.557%2C0%2C0%2C0%2C.482.04A2.709%2C2.709%2C0%2C0%2C0%2C819.916%2C1914.45ZM819%2C1917.88a0.88%2C0.88%2C0%2C1%2C1%2C.878-0.88A0.883%2C0.883%2C0%2C0%2C1%2C819%2C1917.88Zm0-13.25a0.917%2C0.917%2C0%2C0%2C0-.916.92v0.36a0.916%2C0.916%2C0%2C1%2C0%2C1.832%2C0v-0.36A0.917%2C0.917%2C0%2C0%2C0%2C819%2C1904.63Z%22%20transform%3D%22translate(-796%20-1894)%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+}
+.content .distance-learning__item-ico.cabinet {
+  width: 49px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2249%22%20height%3D%2246%22%20viewBox%3D%220%200%2049%2046%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%20%20%20%20%20%20%20%20fill-rule%3A%20evenodd%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Cpath%20class%3D%22cls-1%22%20d%3D%22M1134%2C1894h-41a4%2C4%2C0%2C0%2C0-4%2C3.99v27.75a4.012%2C4.012%2C0%2C0%2C0%2C4%2C4h13.75v5.35h-2.17a2.455%2C2.455%2C0%2C1%2C0%2C0%2C4.91h17.85a2.455%2C2.455%2C0%2C1%2C0%2C0-4.91h-2.17v-5.35H1134a4.012%2C4.012%2C0%2C0%2C0%2C4-4v-27.75A4%2C4%2C0%2C0%2C0%2C1134%2C1894Zm-5.85%2C33.28a1.11%2C1.11%2C0%2C1%2C1%2C1.11-1.11A1.116%2C1.116%2C0%2C0%2C1%2C1128.15%2C1927.28Zm4.92%2C0.27a1.38%2C1.38%2C0%2C1%2C1%2C1.38-1.38A1.383%2C1.383%2C0%2C0%2C1%2C1133.07%2C1927.55Zm1.65-4.15h-42.44v-25.41a0.73%2C0.73%2C0%2C0%2C1%2C.72-0.72h41a0.73%2C0.73%2C0%2C0%2C1%2C.72.72v25.41h0Zm-19.39-12.67%2C1.8-1.09a0.463%2C0.463%2C0%2C0%2C0-.08-0.83l-8.29-2.88a0.5%2C0.5%2C0%2C0%2C0-.48.11%2C0.473%2C0.473%2C0%2C0%2C0-.11.48l2.89%2C8.27a0.459%2C0.459%2C0%2C0%2C0%2C.38.3%2C0.453%2C0.453%2C0%2C0%2C0%2C.45-0.22l1.09-1.8%2C3.39%2C3.39a0.487%2C0.487%2C0%2C0%2C0%2C.33.13%2C0.463%2C0.463%2C0%2C0%2C0%2C.32-0.13l1.7-1.7a0.459%2C0.459%2C0%2C0%2C0%2C0-.65Z%22%20transform%3D%22translate(-1089%20-1894)%22%2F%3E%0A%3C%2Fsvg%3E%0A");
+}
+.content .distance-learning__item-ico.format {
+  width: 58px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2258%22%20height%3D%2246%22%20viewBox%3D%220%200%2058%2046%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20.cls-1%20%7B%0A%09%20%20fill%3A%20%23000%3B%0A%20%20%20%20%20%20%20%20fill-rule%3A%20evenodd%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%3C%2Fstyle%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Cpath%20class%3D%22cls-1%22%20d%3D%22M1404.54%2C1916.16l-11-7a1%2C1%2C0%2C0%2C0-1.54.84v14a1.018%2C1.018%2C0%2C0%2C0%2C.52.88%2C1%2C1%2C0%2C0%2C0%2C.48.12%2C0.972%2C0.972%2C0%2C0%2C0%2C.54-0.16l11-7A1%2C1%2C0%2C0%2C0%2C1404.54%2C1916.16Zm-10.54%2C6.02v-10.36l8.14%2C5.18Zm31-28.18h-56a1%2C1%2C0%2C0%2C0-1%2C1v44a1%2C1%2C0%2C0%2C0%2C1%2C1h56a1%2C1%2C0%2C0%2C0%2C1-1v-44A1%2C1%2C0%2C0%2C0%2C1425%2C1894Zm-47%2C22h-8v-9h8v9Zm-8%2C2h8v9h-8v-9Zm10%2C10v-32h34v42h-34v-10Zm44-12h-8v-9h8v9Zm-8%2C2h8v9h-8v-9Zm8-22v9h-8v-9h8Zm-54%2C0h8v9h-8v-9Zm0%2C42v-9h8v9h-8Zm54%2C0h-8v-9h8v9Z%22%20transform%3D%22translate(-1368%20-1894)%22%2F%3E%0A%3C%2Fsvg%3E%0A");
 }
 .content .gradient-line {
   width: 100%;
@@ -1825,7 +2284,7 @@ header .menu ul li ul li a {
 }
 .content .park-page__img:hover a::after {
   background-color: #fff;
-  background-image: url(../img/plus.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2030%2030%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%2365b936%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M522%203167a15%2015%200%201%201%2015-15%2015%2015%200%200%201-15%2015zm0-27.19a12.19%2012.19%200%201%200%2012.187%2012.19%2012.191%2012.191%200%200%200-12.187-12.19zm6.094%2013.6h-4.688v4.68a1.406%201.406%200%201%201-2.812%200v-4.68h-4.688a1.41%201.41%200%200%201%200-2.82h4.688v-4.68a1.406%201.406%200%201%201%202.812%200v4.68h4.688a1.41%201.41%200%200%201%200%202.82z%22%20transform%3D%22translate(-507%20-3137)%22%2F%3E%3C%2Fsvg%3E");
 }
 .content .park-page__img a::before {
   position: absolute;
@@ -1916,7 +2375,7 @@ header .menu ul li ul li a {
 }
 .content .classes-page__img:hover a::after {
   background-color: #fff;
-  background-image: url(../img/plus.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2030%2030%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%2365b936%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M522%203167a15%2015%200%201%201%2015-15%2015%2015%200%200%201-15%2015zm0-27.19a12.19%2012.19%200%201%200%2012.187%2012.19%2012.191%2012.191%200%200%200-12.187-12.19zm6.094%2013.6h-4.688v4.68a1.406%201.406%200%201%201-2.812%200v-4.68h-4.688a1.41%201.41%200%200%201%200-2.82h4.688v-4.68a1.406%201.406%200%201%201%202.812%200v4.68h4.688a1.41%201.41%200%200%201%200%202.82z%22%20transform%3D%22translate(-507%20-3137)%22%2F%3E%3C%2Fsvg%3E");
 }
 .content .classes-page__img a::before {
   position: absolute;
@@ -2061,7 +2520,7 @@ header .menu ul li ul li a {
   line-height: 36px;
   font-weight: bold;
   text-transform: uppercase;
-  background-image: url(../img/point.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22132%22%20height%3D%22178.063%22%20viewBox%3D%220%200%20132%20178.063%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%2365b936%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M817%2014.993c-36.393%200-66%2029.408-66%2065.555a63.579%2063.579%200%200%200%205.773%2026.761c16.5%2035.861%2048.14%2073.726%2057.447%2084.479a3.689%203.689%200%200%200%205.567%200c9.3-10.752%2040.942-48.613%2057.449-84.479a63.593%2063.593%200%200%200%205.771-26.761c-.007-36.148-29.613-65.555-66.007-65.555zm0%2099.605a34.054%2034.054%200%201%201%2034.286-34.05%2034.209%2034.209%200%200%201-34.286%2034.052z%22%20transform%3D%22translate(-751%20-15)%22%2F%3E%3C%2Fsvg%3E");
   background-size: 24px 32px;
   background-position: left center;
   background-repeat: no-repeat;
@@ -2071,7 +2530,7 @@ header .menu ul li ul li a {
   font-size: 16px;
   line-height: normal;
   font-weight: 600;
-  background-image: url(../img/home-green.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22307.25%22%20height%3D%22287%22%20viewBox%3D%220%200%20307.25%20287%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%2365b936%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20class%3D%22cls-1%22%20d%3D%22M240.695%2032.767h30.267v65.677l-30.137-26.965zm33.123%20111.533l-117.669-111.261-125.506%20111.961c-21%2018.722-30.635%200-30.635%200l156.141-145.014%20151.092%20144.314s-9.116%2018.494-33.423%200zm-11.782%2010.022v123.368s.389%209.014-8.129%209.014h-75.805l.133-66.704s.744-11.03-11.259-11.03h-32.133c-10.162%200-9.062%2011.03-9.062%2011.03l-.122%2066.918s-69.088.09-77.44.09c-6.706%200-6.438-7.234-6.438-7.234v-125.448l113.425-100.21z%22%2F%3E%3C%2Fsvg%3E");
   background-size: 15px 14px;
   background-repeat: no-repeat;
   background-position: left center;
@@ -2084,7 +2543,7 @@ header .menu ul li ul li a {
   line-height: normal;
   font-weight: 600;
   color: #636363;
-  background-image: url(../img/phone-green.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2282%22%20height%3D%22100%22%20viewBox%3D%220%200%2082%20100%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%2365b936%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20id%3D%22Shape_655_copy%22%20class%3D%22cls-1%22%20d%3D%22M1350.22%204698.01a2.373%202.373%200%200%201-2.87%201.83%202.477%202.477%200%200%201-1.77-2.97c1.33-5.75.64-10.79-1.86-13.49-1.66-1.8-4.02-2.42-7.03-1.84-5.96%201.17-9.76%206.49-14.16%2012.66-3.69%205.16-7.87%2011.02-14%2014.94a36.378%2036.378%200%200%201-19.35%205.86q-.93%200-1.86-.06c-7.16-.43-13.07-3.38-16.2-8.1-3.96-5.96-1.69-12.16%201.39-16.4l-2.41-3.33a5.9%205.9%200%200%201%201.06-7.99l15.57-12.4a5.34%205.34%200%200%201%203.39-1.2%205.525%205.525%200%200%201%204.45%202.3l5.75%207.94c4.57-2.14%209.8-5.75%2015.48-11.7a55.245%2055.245%200%200%200%2011.19-16.31l-7.66-6.11a5.9%205.9%200%200%201-1.06-7.99l11.84-16.35a5.525%205.525%200%200%201%204.45-2.3%205.436%205.436%200%200%201%203.4%201.19l8.95%207.14.04.03a1.7%201.7%200%200%201%20.19.19l.16.17.09.14a1.665%201.665%200%200%201%20.18.28l.03.08a2.619%202.619%200%200%201%20.15.39v.01c.23.86%205.23%2021.42-21.9%2049.88-19.5%2020.44-35.16%2023.5-42.77%2023.5a19.012%2019.012%200%200%201-4.86-.52.01.01%200%200%200-.01-.01%203%203%200%200%201-.36-.14.925.925%200%200%200-.1-.05l-.26-.17-.15-.12-.16-.16-.18-.2a.138.138%200%200%201-.03-.04l-1.45-2c-1.61%202.59-2.72%206.08-.47%209.46%204.55%206.86%2018.77%208.7%2030.97.89%205.35-3.42%209.07-8.63%2012.67-13.67%204.79-6.71%209.31-13.05%2017.12-14.57%204.56-.89%208.6.28%2011.36%203.28%203.62%203.91%204.76%2010.66%203.05%2018.03z%22%20transform%3D%22translate(-1269%20-4615)%22%2F%3E%3C%2Fsvg%3E");
   background-size: 15px 14px;
   background-repeat: no-repeat;
   background-position: left center;
@@ -2097,7 +2556,7 @@ header .menu ul li ul li a {
   line-height: normal;
   font-weight: 600;
   color: #636363;
-  background-image: url(../img/mail.svg);
+  background-image: url('../img/mail.svg');
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -2137,7 +2596,7 @@ header .menu ul li ul li a {
   font-size: 13px;
   font-weight: 600;
   color: #979797;
-  background-image: url(../img/calendar.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22234%22%20height%3D%22234%22%20viewBox%3D%220%200%20234%20234%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%23979797%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20id%3D%22Forma_1_copy_2%22%20class%3D%22cls-1%22%20d%3D%22M484.535%20812.086a5.372%205.372%200%200%200-5.433-5.309h-18.955a5.369%205.369%200%200%200-5.427%205.309v18.534a5.371%205.371%200%200%200%205.427%205.314h18.953a5.374%205.374%200%200%200%205.433-5.314v-18.534zm47.37%200a5.37%205.37%200%200%200-5.426-5.309h-18.958a5.37%205.37%200%200%200-5.429%205.309v18.534a5.373%205.373%200%200%200%205.429%205.314h18.958a5.372%205.372%200%200%200%205.426-5.314v-18.534zm47.373%200a5.37%205.37%200%200%200-5.429-5.309h-18.955a5.371%205.371%200%200%200-5.432%205.309v18.534a5.373%205.373%200%200%200%205.432%205.314h18.955a5.373%205.373%200%200%200%205.429-5.314v-18.534zm-94.743%2046.326a5.37%205.37%200%200%200-5.435-5.312h-18.953a5.367%205.367%200%200%200-5.427%205.309v18.535a5.371%205.371%200%200%200%205.427%205.3h18.953a5.374%205.374%200%200%200%205.433-5.3v-18.532zm47.37%200a5.368%205.368%200%200%200-5.426-5.309h-18.958a5.368%205.368%200%200%200-5.429%205.309v18.535a5.373%205.373%200%200%200%205.429%205.3h18.958a5.372%205.372%200%200%200%205.426-5.3v-18.535zm47.373%200a5.368%205.368%200%200%200-5.427-5.309h-18.957a5.369%205.369%200%200%200-5.432%205.309v18.535a5.373%205.373%200%200%200%205.432%205.3h18.957a5.372%205.372%200%200%200%205.427-5.3v-18.535zm33.893-149.367v28.308c0%2012.793-10.615%2023.1-23.7%2023.1h-14.95c-13.083%200-23.837-10.308-23.837-23.1v-28.415h-67.373v28.415c0%2012.793-10.755%2023.1-23.837%2023.1h-14.951c-13.082%200-23.7-10.308-23.7-23.1v-28.308c-11.434.338-20.829%209.592-20.829%2020.96v165.895a21.32%2021.32%200%200%200%2021.449%2021.1h191.1a21.342%2021.342%200%200%200%2021.457-21.1v-165.895c0-11.368-9.4-20.622-20.829-20.96zm-6.945%20176.518a9.171%209.171%200%200%201-9.271%209.067h-160.321a9.173%209.173%200%200%201-9.273-9.067v-85.691a9.174%209.174%200%200%201%209.273-9.067h160.319a9.174%209.174%200%200%201%209.273%209.067v85.691zm-161.755-140.283h14.785a8.033%208.033%200%200%200%208.128-7.944v-46.4a8.038%208.038%200%200%200-8.128-7.94h-14.785a8.037%208.037%200%200%200-8.128%207.94v46.4a8.032%208.032%200%200%200%208.128%207.944zm129.864%200h14.787a8.032%208.032%200%200%200%208.124-7.944v-46.4a8.037%208.037%200%200%200-8.124-7.94h-14.787a8.037%208.037%200%200%200-8.126%207.94v46.4a8.032%208.032%200%200%200%208.126%207.944z%22%20transform%3D%22translate(-400%20-683)%22%2F%3E%3C%2Fsvg%3E");
   background-size: 15px 15px;
   background-position: left center;
   background-repeat: no-repeat;
@@ -2474,7 +2933,7 @@ header .menu ul li ul li a {
   margin-bottom: 15px;
   font-size: 16px;
   padding-left: 68px;
-  background-image: url(../img/pdf.svg);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22293.938%22%20height%3D%22307%22%20viewBox%3D%220%200%20293.938%20307%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%20%7B%20fill%3A%20%23d92b2c%3B%20fill-rule%3A%20evenodd%3B%20%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cpath%20id%3D%22Forma_1%22%20class%3D%22cls-1%22%20d%3D%22M469.651%202230.09a26.739%2026.739%200%200%200-6%20.63v39.53a23.539%2023.539%200%200%200%204.594.35c12.138.33%2020.2-6.47%2020.2-21.21.089-12.82-7.245-19.48-18.794-19.3zm101.955%20151.4c.4.02.8.06%201.218.06h92.51a19.69%2019.69%200%200%200%2019.623-19.71v-215.47a19.7%2019.7%200%200%200-19.623-19.71h-92.51c-.411%200-.816.04-1.218.06v-25.72l-180.564%2024.21v257.95l180.564%2024.84v-26.51zm93.728-11.2h-92.51a8.191%208.191%200%200%201-1.218-.13v-84.53c19.275-3.35%2046.043-5.88%2069.2-.42l2.737%205.34c11.055%2021%2022.859%2020.86%2027.42%2019.82a8.129%208.129%200%200%200%201.61-.5l.613-.33c.2-.13.367-.29.559-.44v52.74a8.441%208.441%200%200%201-8.411%208.45zm-85.883-94.68c14.488-17.75%2026.2-34.33%2033.734-45.55l.027.06.082-.12c5.917%2012.53%2015.676%2031.92%2022.391%2045.16l-.021-.01.229.45c-19.1-3.28-39.613-2.09-56.485.26l.246-.29zm34.079-82.83c.58-1.03%201.428-1.31%202.95-1.24.031%200%203.053.2%204.178%202.28.685%201.24%201.679%205.17-3.66%2014.75s-.69%201.16-1.988%203.24c-2.992-10.55-2.797-16.71-1.48-19.03zm38.578%2095.89a66.327%2066.327%200%200%201%2014.712%207.81c1.235%201.77%202.385%204.31%202.174%205.51a.488.488%200%200%201-.057.17c-1.766.33-8.802.55-16.829-13.49zm-79.284-150.74h92.51a8.441%208.441%200%200%201%208.41%208.45v145.31c-.265-.37-.493-.68-.628-.85l-.355-.46-.466-.35a78.785%2078.785%200%200%200-25.741-12.06c-7.063-13.87-21.7-42.76-27.847-56.29%203.559-5.51%205.475-8.72%205.562-8.87%205.547-9.94%206.762-17.7%203.7-23.17-2.782-4.96-8.325-6.44-11.156-6.54a11.11%2011.11%200%200%200-10.6%205.5c-3.231%205.72-2.563%2015.74%202%2029.76.2.65.525%201.48.958%202.53a614.485%20614.485%200%200%201-37.571%2050.99v-133.83a8.226%208.226%200%200%201%201.224-.12zm-135.533%20114.83c-4.269%204.25-10.544%206.11-17.789%206.04a28.046%2028.046%200%200%201-4.146-.3v20.71l-11.858-.33v-56.53a91.132%2091.132%200%200%201%2016.245-1.58c7.56-.19%2013.035%201.25%2016.727%204.31a17.4%2017.4%200%200%201%205.963%2013.61c0%205.81-1.828%2010.74-5.142%2014.07zm55.672%2021.25c-6.405%205.25-16.032%207.54-27.585%207.22a110.923%20110.923%200%200%201-14.8-1.3v-58.67a112.748%20112.748%200%200%201%2017.669-1.67c11.253-.28%2018.665%201.64%2024.54%206.01%206.379%204.69%2010.426%2012.31%2010.426%2023.34.002%2011.96-4.313%2020.13-10.25%2025.07zm19.571-55.03l39.891-.96v12.05l-25.373.37v14.55l23.684-.06v11.93l-23.684-.16v25.61l-14.522-.4v-62.93zm-92.149%2011.69a18.991%2018.991%200%200%200-5.026.6v17.09a17.015%2017.015%200%200%200%204.067.35c6.516.01%2010.571-3.56%2010.571-9.57.003-5.4-3.492-8.56-9.612-8.47z%22%20transform%3D%22translate(-391.031%20-2101)%22%2F%3E%3C%2Fsvg%3E");
   background-size: 48px 50px;
   background-position: left center;
   background-repeat: no-repeat;

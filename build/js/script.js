@@ -314,11 +314,117 @@
             }
         }
 
+        function heightBlocks(el, anchor) {
+
+            var  clientWidth = document.documentElement.clientWidth,
+                $anchor = $('.js-anchor-' + anchor);
+
+            if (clientWidth >= 768) {
+
+                var max = 0,
+                    maxIndex = '';
+
+                $anchor.each(function(){
+                    $(this).removeClass('js-anchor-' + anchor);
+                });
+
+                el.each(function(i){
+
+                    $(this).css({'height': ''});
+
+                    if (max < $(this).height()) {
+                        max = $(this).height();
+                        maxIndex = i;
+                    }
+
+                });
+
+                el.eq(maxIndex).addClass('js-anchor-' + anchor);
+
+                el.each(function(){
+                    (!$(this).hasClass('js-anchor-' + anchor))
+                        ? $(this).css({'height': max + 'px'})
+                        : '';
+                });
+
+            } else {
+                el.each(function(){
+                    $(this)
+                        .removeClass('.js-anchor-' + anchor)
+                        .css({'height': ''});
+                });
+            }
+
+        }
+
+        var $advantages = $('.js-item-dist');
+
+
+        heightBlocks($advantages, 'dist');
+
+        window.onresize = function(){
+            heightBlocks($advantages, 'dist');
+        }
+
+
         var $otherActions = $('.one-action .other-action');
 
         if ($otherActions.length) {
             $('.actions-content').append( $('<div class="one-action"></div>').append($('.one-action .other-action')) );
             $('.one-action + p').remove();
+        }
+
+
+        function heightBlocksTale(el, anchor) {
+
+            var  clientWidth = document.documentElement.clientWidth,
+                $anchor = $('.js-anchor-' + anchor);
+
+            if (clientWidth >= 768) {
+
+                var max = 0,
+                    maxIndex = '';
+
+                $anchor.each(function(){
+                    $(this).removeClass('js-anchor-' + anchor);
+                });
+
+                el.each(function(i){
+
+                    $(this).css({'height': ''});
+
+                    if (max < $(this).outerHeight()) {
+                        max = $(this).outerHeight();
+                        maxIndex = i;
+                    }
+
+                });
+
+                el.eq(maxIndex).addClass('js-anchor-' + anchor);
+
+                el.each(function(){
+                    (!$(this).hasClass('js-anchor-' + anchor))
+                        ? $(this).css({'height': max + 'px'})
+                        : '';
+                });
+            } else {
+
+                el.each(function(){
+                    $(this)
+                        .removeClass('.js-anchor-' + anchor)
+                        .css({'height': ''});
+                });
+            }
+
+        }
+
+        var $advantages = $('.js-tale');
+
+        heightBlocksTale($advantages, 'tale');
+
+
+        window.onresize = function() {
+            heightBlocksTale($advantages, 'tale');
         }
 
     });

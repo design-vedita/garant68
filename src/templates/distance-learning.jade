@@ -1,0 +1,24 @@
+include includes/head
+include includes/header
+include includes/breadcrumbs
+include includes/distance-learning
+include includes/footer
+include includes/scripts
+include includes/popup
+include includes/mixins
+doctype html
+html(lang="en")
+    head
+        +head('Акции')
+    body
+        include blocks/svg.html
+        // Шапка сайта
+        +header()
+        //
+        .content
+            +breadcrumbs('Дистанционное обучение')
+            +distance-learning()
+        footer
+            +footer()
+            +popup()
+            +scripts()
