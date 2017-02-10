@@ -113,7 +113,7 @@ header .address-header p {
 }
 header .address-header p.title {
   margin-bottom: 7px;
-  font-size: 17px;
+  font-size: 14px;
   line-height: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -138,27 +138,30 @@ header .address-header p.title a:hover {
   color: #838383;
 }
 header .address-header p.phone {
-  margin-top: 6px;
-  font-size: 24px;
+  margin-top: -4px;
+  font-size: 18px;
   color: #374330;
-}
-@media (min-width: 768px) and (max-width: 1199px) {
-  header .address-header p.phone {
-    font-size: 16px;
-  }
-}
-@media (min-width: 320px) and (max-width: 767px) {
-  header .address-header p.phone {
-    margin-top: 2px;
-    font-size: 15px;
-  }
+  /*@media (min-width: 768px) and (max-width: 1199px) {
+
+					&  {
+						font-size: 16px;
+					}
+				}
+
+				@media (min-width: 320px) and (max-width: 767px) {
+
+					&  {
+						margin-top: 2px;
+						font-size: 15px;
+					}
+				}*/
 }
 header .address-header p.phone span {
   color: #65b936;
   font-weight: bold;
 }
 header .address-header span.address {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 600;
   color: #666666;
 }
@@ -166,6 +169,10 @@ header .address-header span.address {
   header .address-header span.address {
     font-size: 14px;
   }
+}
+header .address-header span.address:nth-of-type(2) {
+  margin-top: 6px;
+  display: block;
 }
 header .reserv-block {
   text-align: right;
